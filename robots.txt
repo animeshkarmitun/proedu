@@ -1,2 +1,5 @@
 User-agent: *
 Disallow: /
+
+# Uncomment the line below when launching the site
+# Sitemap: https://www.europeanbd.com/sitemap.xml
