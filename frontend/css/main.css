@@ -259,12 +259,13 @@ body {
 }
 
 #header .logo img {
-    width: 140px;
+    width: 85px;
 }
 
 #header .menu .apply-button {
-    width: 40%;
+    width: auto;
     text-align: end;
+    flex-shrink: 0;
 }
 
 #header .menu ul {
@@ -295,10 +296,10 @@ body {
 }
 
 #header .menu ul li a {
-    padding: 20px 10px !important;
+    padding: 20px 6px !important;
     text-decoration: none;
     color: var(--black);
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 700;
     cursor: pointer;
     font-family: "Roboto", "Open Sans";
