@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="frontend/css/bootstrap-5.3.2.min.css">
+    <link rel="stylesheet" href="frontend/css/bootstrap-5.3.2.min.css">
+    <link rel="stylesheet" href="frontend/css/main.css">
+    <link rel="stylesheet" href="frontend/css/style.css">
+    <link href="google-fonts.css?family=Roboto:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link href="google-fonts-montserrat.css?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href='boxicons%402.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="ajax/libs/font-awesome/6.5.1/css/all.min.css" rel='stylesheet'>
+    <link href="ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" rel="stylesheet">
+    <link href="ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" rel="stylesheet">
+    <link href="ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="npm/glightbox/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="1.13.6/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="buttons/2.4.1/css/buttons.dataTables.min.css">
+
+    <!-- DataTables JS -->
+    <script src="1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+    <script src="buttons/2.4.1/js/buttons.html5.min.js"></script>
+    <script src="ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+    <script src="ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+
+    <title>Pro Info & Edu Consultant</title>
+</head>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++
+        Design and Development by Animesh Kar
+        Contact: 01817106176
+        +++++++++++++++++++++++++++++++++++++++ -->
+
+<body>
+
+
+    <!--==================nav section ==================-->
+    <section id="nav">
+        <div class="container">
+            <div class="d-flex align-items-center py-3">
+                <div class="logo">
+                    <a href="index.htm"><img src="images/logo.jpg" alt=""></a>
+                </div>
+                <div class="d-flex align-items-center justify-content-center nav-section">
+                    <div class="d-flex align-items-center px-3 nav-borer nav-hover">
+                        <div class="nav-icon">
+                            <i class='bx bx-phone-call'></i>
+                        </div>
+                        <div class="nav-content">
+                            <label>Requesting a Call:</label>
+                            <span>01889993282</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center px-3 nav-borer nav-hover">
+                        <div class="nav-icon">
+                            <i class='bx bx-phone-call'></i>
+                        </div>
+                        <div class="nav-content">
+                            <label>Feedback:</label>
+                            <span>01519393939</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center px-3 nav-hover">
+                        <div class="nav-icon-loc">
+                            <i class='bx bx-alarm'></i>
+                        </div>
+                        <div class="nav-content">
+                            <label>Saturday - Thursday :</label>
+                            <span>10:00am - 6:00pm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/proinfobd" target="_blank"><button type="button"><i class='bx bxl-facebook'></i></button></a>
+                    <a href="https://www.linkedin.com/company/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-linkedin'></i></button></a>
+                    <a href="https://www.youtube.com/channel/UC_ZQ7ocnm54IfKY4MMvOTfQ" target="_blank"><button type="button"><i class='bx bxl-youtube'></i></button></a>
+                    <a href="https://www.instagram.com/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-instagram'></i></button></a>
+                    <a href="https://x.com/ProInfoEduCons1" target="_blank">
+                        <button type="button">
+                            <i class="fa-brands fa-x-twitter" style="font-size: 17px;"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================header menu section ==================-->
+    <section id="header" class="sticky-top">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="logo" style="display: none;">
+                    <a href="index.htm"><img src="images/logo.jpg" alt="Logo"></a>
+                </div>
+                <div class="menu d-flex justify-content-between w-100 ">
+                    <ul class="nav-bar d-flex justify-content-between">
+                        <li class="home"><a href="index.htm" class="nav-top-border">Home</a></li>
+                        <!--<li><a href="https://www.proinfoedu.com/about-us" class="nav-top-border">About us</a></li>-->
+                        <li class="service arrow-control">
+                            <a href="#" class="nav-top-border">Destination</a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                            <ul class="sub-menu-service">
+                                <li><a href="australia.html"><span class="flag-icon flag-icon-au"></span>
+                                        Australia</a></li>
+                                <li><a href="newzealand.html"><span class="flag-icon flag-icon-nz"></span> New
+                                        Zealand</a></li>
+                                <li class="pb-4"><a href="canada.html"><span class="flag-icon flag-icon-ca"></span> Canada</a></li>
+                                <li><a href="uk.html"><span class="flag-icon flag-icon-gb"></span> United
+                                        Kingdom</a></li>
+                                <li><a href="europe.html"><span class="flag-icon flag-icon-eu"></span> Europe</a></li>
+                                <li><a href="southkorea.html"><span class="flag-icon flag-icon-kr"></span> South Korea</a></li>
+                                <li class="pt-4"><a href="malaysia.html"><span class="flag-icon flag-icon-my"></span> Malaysia</a></li>
+                            </ul>
+                        </li>
+                        <li class="service arrow-control">
+                            <a href="#" class="nav-top-border">Service</a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                            <ul class="sub-menu-service">
+                                <li class="pt-4"><a href="counseling.html">Education Counseling</a></li>
+                                <li><a href="admission.html">Admission Process</a></li>
+                                <li><a href="visa.html">Visa Application</a></li>
+                                <li><a href="scholarship.html">Scholarship Facilities</a></li>
+                                <li><a href="travel.html">Travel Assistance</a></li>
+                                <li class="pb-4"><a href="support.html">Arrival Support</a></li>
+                            </ul>
+                        </li>
+                        <li class=""><a href="testimonial.html" class="nav-top-border">Testimonial</a>
+                        </li>
+                        <li class="service arrow-control">
+                            <a href="#" class="nav-top-border">Events</a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                            <ul class="sub-menu-service">
+                                <li class="pt-4"><a href="event.html">Our Events</a></li>
+                                <li class="pb-4"><a href="event-gallery.html">Our Gallery</a></li>
+                            </ul>
+                        </li>
+                        <li class=""><a href="blog.html" class="nav-top-border">Blogs</a></li>
+                        <li class="service arrow-control">
+                            <a href="#" class="nav-top-border">About</a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                            <ul class="sub-menu-service">
+                                <li><a href="https://www.proinfoedu.com/about-us" class="nav-top-border">About us</a></li>
+                                <li><a href="https://www.proinfoedu.com/certificates" class="nav-top-border">Professional
+                                        Affiliation</a></li>
+                            </ul>
+                        </li>
+                        <li class=""><a href="https://www.proinfoedu.com/contact-us" class="nav-top-border">Contact us</a>
+                        </li>
+                    </ul>
+                    <div class="apply-button d-flex justify-content-end">
+                        <!-- <a href="https://www.proinfoedu.com/apply" class="pe-1">
+                            <button type="button" class="">Apply Now <i class='bx bx-right-arrow-alt'></i></button>
+                        </a> -->
+                        <a href="tel:+8801519393939" class="pe-1">
+                            <button type="button" class="">Complain</button>
+                        </a>
+                    </div>
+                    <div class="qr-mobile-button" style="display: none;">
+                        <a href="https://www.proinfoedu.com/qrcode">
+                            <button type="button">QR</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <!-- Apply & QR Buttons -->
+                    <div class="apply d-flex me-3">
+                        <a href="https://www.proinfoedu.com/apply" class="pe-1">
+                            <button type="button" style="background-color:#A8FBD3; color:black; cursor:pointer; padding:6px 6px; border:none; border-radius:4px;">
+                                <i class="fas fa-paper-plane" style="margin-right:4px;"></i> Apply Now
+                            </button>
+                        </a>
+                        <a href="https://www.proinfoedu.com/qrcode">
+                            <button type="button" style="background-color:#A8FBD3; color:black; cursor:pointer; padding:6px 6px; border:none; border-radius:4px;">
+                                <i class="fas fa-qrcode" style="margin-right:4px;"></i> QR
+                            </button>
+                        </a>
+                    </div>
+
+                    <!-- Menu Button -->
+                    <div class="menu-button">
+                        <button type="button" id="menuButton"><i class='bx bx-menu'></i></button>
+                    </div>
+                </div>
+                <!-- <div class="menu-button d-flex align-items-center 1400">
+                    <div class="apply">
+                        <a href="https://www.proinfoedu.com/apply">
+                            <button type="button" class="">Apply Now</button>
+                        </a>
+                    </div>
+                    <button type="button" id="menuButton"><i class='bx bx-menu'></i></button>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu List Stat -->
+    <div class="menu-container side-menu" id="menuContainer">
+        <div class="menu-list custom-scrollbar">
+            <aside id="sidebar" class="sidebar">
+
+                <ul class="sidebar-nav" id="sidebar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.htm">
+                            <i class="bi bi-grid"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <!--<li class="nav-item">-->
+                    <!--    <a class="nav-link " href="https://www.proinfoedu.com/about-us">-->
+                    <!--        <i class="bi bi-node-plus"></i>-->
+                    <!--        <span>About Us</span>-->
+                    <!--    </a>-->
+                    <!--</li>-->
+                    <li class="service arrow-control">
+                        <a href="#" class="nav-top-border">About</a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                        <ul class="sub-menu-service">
+                            <li><a href="https://www.proinfoedu.com/about-us" class="nav-top-border">About us</a></li>
+                            <li><a href="https://www.proinfoedu.com/certificates" class="nav-top-border">Professional
+                                    Affiliation</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" data-bs-target="#destination-nav" data-bs-toggle="collapse" href="#">
+                            <i class="bi bi-menu-button-wide"></i><span>Destination</span><i class="bi bi-chevron-down ms-auto"></i>
+                        </a>
+                        <ul id="destination-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+
+                            <li>
+                                <a href="australia.html">
+                                    <i class="bi bi-circle"></i><span>Australia</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="newzealand.html">
+                                    <i class="bi bi-circle"></i><span>Newzealand</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="canada.html">
+                                    <i class="bi bi-circle"></i><span>Canada</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="uk.html">
+                                    <i class="bi bi-circle"></i><span>United Kingdom</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="europe.html">
+                                    <i class="bi bi-circle"></i><span>Europe</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="southkorea.html">
+                                    <i class="bi bi-circle"></i><span>South Korea</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="malaysia.html">
+                                    <i class="bi bi-circle"></i><span>Malaysia</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" data-bs-target="#service-nav" data-bs-toggle="collapse" href="#">
+                            <i class="bi bi-menu-button-wide"></i><span>Service</span><i class="bi bi-chevron-down ms-auto"></i>
+                        </a>
+                        <ul id="service-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                            <li>
+                                <a href="counseling.html">
+                                    <i class="bi bi-circle"></i><span>Education Counseling</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="admission.html">
+                                    <i class="bi bi-circle"></i><span>Admission Process</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="visa.html">
+                                    <i class="bi bi-circle"></i><span>Visa Application</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="scholarship.html">
+                                    <i class="bi bi-circle"></i><span>Scholarship Facilities</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="travel.html">
+                                    <i class="bi bi-circle"></i><span>Travel Assistance</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="support.html">
+                                    <i class="bi bi-circle"></i><span>Pre & Post - Arrival Support</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="testimonial.html">
+                            <i class="bi bi-body-text"></i>
+                            <span>Testimonials</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" data-bs-target="#event-nav" data-bs-toggle="collapse">
+                            <i class="bi bi-alexa"></i><span>Events</span><i class="bi bi-chevron-down ms-auto"></i>
+                        </a>
+                        <ul id="event-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                            <li>
+                                <a href="event.html">
+                                    <i class="bi bi-circle"></i><span>Our Events</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="event-gallery.html">
+                                    <i class="bi bi-circle"></i><span>Our Gallery</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="blog.html">
+                            <i class="bi bi-body-text"></i>
+                            <span>Blogs</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="https://www.proinfoedu.com/contact-us">
+                            <i class="bi bi-envelope"></i>
+                            <span>Contact Us</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="side-apply-button text-center mt-4">
+                    <div class="qr-mobile-button" style="display: none;">
+                        <a href="https://www.proinfoedu.com/qrcode">
+                            <button type="button">QR</button>
+                        </a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="https://www.proinfoedu.com/apply">
+                            <button type="button" class="">Apply Now <i class='bx bx-right-arrow-alt'></i></button>
+                        </a>
+                    </div>
+                    <div class="">
+                        <a href="tel:+8801519393939">
+                            <button type="button" class="">Complain Box</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/proinfobd" target="_blank"><button type="button"><i class='bx bxl-facebook'></i></button></a>
+                    <a href="https://www.linkedin.com/company/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-linkedin'></i></button></a>
+                    <a href="https://www.youtube.com/channel/UC_ZQ7ocnm54IfKY4MMvOTfQ" target="_blank"><button type="button"><i class='bx bxl-youtube'></i></button></a>
+                    <a href="https://www.instagram.com/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-instagram'></i></button></a>
+                    <a href="https://x.com/ProInfoEduCons1" target="_blank">
+                        <button type="button">
+                            <i class="fa-brands fa-x-twitter" style="font-size: 17px;"></i>
+                        </button>
+                    </a>
+                </div>
+            </aside>
+
+
+        </div>
+    </div>
+    <!-- Menu List End-->
+
+    
+        <!--================== banner section ==================-->
+    <section class="page-banner section">
+        <img src="images/page-bg.jpg" alt="Img not available">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <div class="container page-section-title pt-5 mt-5">
+                        <h2 class="text-light">Our Blogs</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="py-4">
+        <div class="container">
+            <div class="row gy-4">
+                <h3>All Blog <span class="text-danger">Posts</span></h3>
+                <div class="row g-4 mt-0">
+                                            <div class="col-lg-4">
+                            <div class="card">
+                                <a href="https://www.proinfoedu.com/blog-details/17" class="text-decoration-none">
+                                    <img src="/images/1740376276.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="">
+                                    <p class="blog-date">Proinfo â¢ 24 Feb 2025
+                                    </p>
+                                    <div class="blog-date-title d-flex justify-content-between">
+                                        <h3 class="card-title w-75">
+                                            <a href="https://www.proinfoedu.com/blog-details/17" class="text-decoration-none">
+                                                Australia Awards Scholarships 2026 for International Students (Fully Funded) ...
+                                            </a>
+                                        </h3>
+                                        <span class="text-danger text-end w-25 pe-1"><i class="bi bi-arrow-up-right-circle"></i></span>
+                                    </div>
+                                    <p class="card-text">Australia Awards Scholarships 2026 for International Students (Fully Funded)</p>
+                                    <div>
+                                        <span class="badge rounded-pill text-success bg-success-subtle px-3 py-2">educational</span>
+                                        <span class="badge rounded-pill text-danger bg-danger-subtle px-3 py-2">scholarship</span>
+                                        <span class="badge rounded-pill text-dark bg-dark-subtle px-3 py-2">Visa</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-lg-4">
+                            <div class="card">
+                                <a href="https://www.proinfoedu.com/blog-details/16" class="text-decoration-none">
+                                    <img src="/images/1738666309.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="">
+                                    <p class="blog-date">Proinfo â¢ 23 Jan 2025
+                                    </p>
+                                    <div class="blog-date-title d-flex justify-content-between">
+                                        <h3 class="card-title w-75">
+                                            <a href="https://www.proinfoedu.com/blog-details/16" class="text-decoration-none">
+                                                ð ðððð ð­ ðð®ð ðð¼ ðð¼! ð ...
+                                            </a>
+                                        </h3>
+                                        <span class="text-danger text-end w-25 pe-1"><i class="bi bi-arrow-up-right-circle"></i></span>
+                                    </div>
+                                    <p class="card-text">ð ðððð ð­ ðð®ð ðð¼ ðð¼! ð</p>
+                                    <div>
+                                        <span class="badge rounded-pill text-success bg-success-subtle px-3 py-2">educational</span>
+                                        <span class="badge rounded-pill text-danger bg-danger-subtle px-3 py-2">scholarship</span>
+                                        <span class="badge rounded-pill text-dark bg-dark-subtle px-3 py-2">Visa</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-lg-4">
+                            <div class="card">
+                                <a href="https://www.proinfoedu.com/blog-details/15" class="text-decoration-none">
+                                    <img src="/images/1737200850.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="">
+                                    <p class="blog-date">Proinfo â¢ 18 Jan 2025
+                                    </p>
+                                    <div class="blog-date-title d-flex justify-content-between">
+                                        <h3 class="card-title w-75">
+                                            <a href="https://www.proinfoedu.com/blog-details/15" class="text-decoration-none">
+                                                Denmarkâs 2025 Workforce Recruitment List Includes 162 New Jobs â See If You ...
+                                            </a>
+                                        </h3>
+                                        <span class="text-danger text-end w-25 pe-1"><i class="bi bi-arrow-up-right-circle"></i></span>
+                                    </div>
+                                    <p class="card-text">Denmarkâs 2025 Workforce Recruitment List Includes 162 New Jobs â See If Youâre Eligible to Apply!</p>
+                                    <div>
+                                        <span class="badge rounded-pill text-success bg-success-subtle px-3 py-2">educational</span>
+                                        <span class="badge rounded-pill text-danger bg-danger-subtle px-3 py-2">scholarship</span>
+                                        <span class="badge rounded-pill text-dark bg-dark-subtle px-3 py-2">Visa</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-lg-4">
+                            <div class="card">
+                                <a href="https://www.proinfoedu.com/blog-details/14" class="text-decoration-none">
+                                    <img src="/images/1736913654.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="">
+                                    <p class="blog-date">Proinfo â¢ 15 Jan 2025
+                                    </p>
+                                    <div class="blog-date-title d-flex justify-content-between">
+                                        <h3 class="card-title w-75">
+                                            <a href="https://www.proinfoedu.com/blog-details/14" class="text-decoration-none">
+                                                Canada Adds New Programs to Post-Graduation Work Permit Eligibility List ...
+                                            </a>
+                                        </h3>
+                                        <span class="text-danger text-end w-25 pe-1"><i class="bi bi-arrow-up-right-circle"></i></span>
+                                    </div>
+                                    <p class="card-text">Canada Adds New Programs to Post-Graduation Work Permit Eligibility List</p>
+                                    <div>
+                                        <span class="badge rounded-pill text-success bg-success-subtle px-3 py-2">educational</span>
+                                        <span class="badge rounded-pill text-danger bg-danger-subtle px-3 py-2">scholarship</span>
+                                        <span class="badge rounded-pill text-dark bg-dark-subtle px-3 py-2">Visa</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-lg-4">
+                            <div class="card">
+                                <a href="https://www.proinfoedu.com/blog-details/12" class="text-decoration-none">
+                                    <img src="/images/1735444701.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="">
+                                    <p class="blog-date">Proinfo â¢ 29 Dec 2024
+                                    </p>
+                                    <div class="blog-date-title d-flex justify-content-between">
+                                        <h3 class="card-title w-75">
+                                            <a href="https://www.proinfoedu.com/blog-details/12" class="text-decoration-none">
+                                                Denmark sets new salary thresholds for work and residency permits starting Janua ...
+                                            </a>
+                                        </h3>
+                                        <span class="text-danger text-end w-25 pe-1"><i class="bi bi-arrow-up-right-circle"></i></span>
+                                    </div>
+                                    <p class="card-text">Denmark sets new salary thresholds for work and residency permits starting January 2025</p>
+                                    <div>
+                                        <span class="badge rounded-pill text-success bg-success-subtle px-3 py-2">educational</span>
+                                        <span class="badge rounded-pill text-danger bg-danger-subtle px-3 py-2">scholarship</span>
+                                        <span class="badge rounded-pill text-dark bg-dark-subtle px-3 py-2">Visa</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-lg-4">
+                            <div class="card">
+                                <a href="https://www.proinfoedu.com/blog-details/11" class="text-decoration-none">
+                                    <img src="/images/1735359855.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="">
+                                    <p class="blog-date">Proinfo â¢ 28 Dec 2024
+                                    </p>
+                                    <div class="blog-date-title d-flex justify-content-between">
+                                        <h3 class="card-title w-75">
+                                            <a href="https://www.proinfoedu.com/blog-details/11" class="text-decoration-none">
+                                                US and UK universities lead the world in creating most employable alumni ...
+                                            </a>
+                                        </h3>
+                                        <span class="text-danger text-end w-25 pe-1"><i class="bi bi-arrow-up-right-circle"></i></span>
+                                    </div>
+                                    <p class="card-text">US and UK universities lead the world in creating most employable alumni</p>
+                                    <div>
+                                        <span class="badge rounded-pill text-success bg-success-subtle px-3 py-2">educational</span>
+                                        <span class="badge rounded-pill text-danger bg-danger-subtle px-3 py-2">scholarship</span>
+                                        <span class="badge rounded-pill text-dark bg-dark-subtle px-3 py-2">Visa</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-lg-4">
+                            <div class="card">
+                                <a href="https://www.proinfoedu.com/blog-details/10" class="text-decoration-none">
+                                    <img src="/images/1735216463.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="">
+                                    <p class="blog-date">Proinfo â¢ 26 Dec 2024
+                                    </p>
+                                    <div class="blog-date-title d-flex justify-content-between">
+                                        <h3 class="card-title w-75">
+                                            <a href="https://www.proinfoedu.com/blog-details/10" class="text-decoration-none">
+                                                UKVI update ...
+                                            </a>
+                                        </h3>
+                                        <span class="text-danger text-end w-25 pe-1"><i class="bi bi-arrow-up-right-circle"></i></span>
+                                    </div>
+                                    <p class="card-text">UKVI update</p>
+                                    <div>
+                                        <span class="badge rounded-pill text-success bg-success-subtle px-3 py-2">educational</span>
+                                        <span class="badge rounded-pill text-danger bg-danger-subtle px-3 py-2">scholarship</span>
+                                        <span class="badge rounded-pill text-dark bg-dark-subtle px-3 py-2">Visa</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-lg-4">
+                            <div class="card">
+                                <a href="https://www.proinfoedu.com/blog-details/9" class="text-decoration-none">
+                                    <img src="/images/1735207626.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="">
+                                    <p class="blog-date">Proinfo â¢ 26 Dec 2024
+                                    </p>
+                                    <div class="blog-date-title d-flex justify-content-between">
+                                        <h3 class="card-title w-75">
+                                            <a href="https://www.proinfoedu.com/blog-details/9" class="text-decoration-none">
+                                                New Zealand removes requirement for post-study work visa applicants ...
+                                            </a>
+                                        </h3>
+                                        <span class="text-danger text-end w-25 pe-1"><i class="bi bi-arrow-up-right-circle"></i></span>
+                                    </div>
+                                    <p class="card-text">New Zealand removes requirement for post-study work visa applicants</p>
+                                    <div>
+                                        <span class="badge rounded-pill text-success bg-success-subtle px-3 py-2">educational</span>
+                                        <span class="badge rounded-pill text-danger bg-danger-subtle px-3 py-2">scholarship</span>
+                                        <span class="badge rounded-pill text-dark bg-dark-subtle px-3 py-2">Visa</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-lg-4">
+                            <div class="card">
+                                <a href="https://www.proinfoedu.com/blog-details/7" class="text-decoration-none">
+                                    <img src="/images/1735190160.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="">
+                                    <p class="blog-date">Proinfo â¢ 26 Dec 2024
+                                    </p>
+                                    <div class="blog-date-title d-flex justify-content-between">
+                                        <h3 class="card-title w-75">
+                                            <a href="https://www.proinfoedu.com/blog-details/7" class="text-decoration-none">
+                                                Merry Christmas to you and your loved ones! ðð ...
+                                            </a>
+                                        </h3>
+                                        <span class="text-danger text-end w-25 pe-1"><i class="bi bi-arrow-up-right-circle"></i></span>
+                                    </div>
+                                    <p class="card-text">Merry Christmas to you and your loved ones! ðð</p>
+                                    <div>
+                                        <span class="badge rounded-pill text-success bg-success-subtle px-3 py-2">educational</span>
+                                        <span class="badge rounded-pill text-danger bg-danger-subtle px-3 py-2">scholarship</span>
+                                        <span class="badge rounded-pill text-dark bg-dark-subtle px-3 py-2">Visa</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-lg-4">
+                            <div class="card">
+                                <a href="https://www.proinfoedu.com/blog-details/6" class="text-decoration-none">
+                                    <img src="/images/1735012493.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="">
+                                    <p class="blog-date">Proinfo â¢ 24 Dec 2024
+                                    </p>
+                                    <div class="blog-date-title d-flex justify-content-between">
+                                        <h3 class="card-title w-75">
+                                            <a href="https://www.proinfoedu.com/blog-details/6" class="text-decoration-none">
+                                                Meet ð ð¿. ðð®ð¿ð®ð»ð·ð²ð²ð ð¦ð¶ð»ð´ðµ Regiona ...
+                                            </a>
+                                        </h3>
+                                        <span class="text-danger text-end w-25 pe-1"><i class="bi bi-arrow-up-right-circle"></i></span>
+                                    </div>
+                                    <p class="card-text">Meet ð ð¿. ðð®ð¿ð®ð»ð·ð²ð²ð ð¦ð¶ð»ð´ðµ Regional Manager - AIBI At PROINFO &amp; EDU CONSULTANT</p>
+                                    <div>
+                                        <span class="badge rounded-pill text-success bg-success-subtle px-3 py-2">educational</span>
+                                        <span class="badge rounded-pill text-danger bg-danger-subtle px-3 py-2">scholarship</span>
+                                        <span class="badge rounded-pill text-dark bg-dark-subtle px-3 py-2">Visa</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-lg-4">
+                            <div class="card">
+                                <a href="https://www.proinfoedu.com/blog-details/5" class="text-decoration-none">
+                                    <img src="/images/1735012216.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="">
+                                    <p class="blog-date">Proinfo â¢ 23 Dec 2024
+                                    </p>
+                                    <div class="blog-date-title d-flex justify-content-between">
+                                        <h3 class="card-title w-75">
+                                            <a href="https://www.proinfoedu.com/blog-details/5" class="text-decoration-none">
+                                                Meet ð ð¿. ððºð¿ð®ð» ð ð¼ð³ð¶ð ð¥ð®ð»ð®, Merke ...
+                                            </a>
+                                        </h3>
+                                        <span class="text-danger text-end w-25 pe-1"><i class="bi bi-arrow-up-right-circle"></i></span>
+                                    </div>
+                                    <p class="card-text">Meet ð ð¿. ððºð¿ð®ð» ð ð¼ð³ð¶ð ð¥ð®ð»ð®, Merketing Support Manager Bangladesh of Canterbury Institute of Management </p>
+                                    <div>
+                                        <span class="badge rounded-pill text-success bg-success-subtle px-3 py-2">educational</span>
+                                        <span class="badge rounded-pill text-danger bg-danger-subtle px-3 py-2">scholarship</span>
+                                        <span class="badge rounded-pill text-dark bg-dark-subtle px-3 py-2">Visa</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-lg-4">
+                            <div class="card">
+                                <a href="https://www.proinfoedu.com/blog-details/4" class="text-decoration-none">
+                                    <img src="/images/1734762611.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="">
+                                    <p class="blog-date">Proinfo â¢ 21 Dec 2024
+                                    </p>
+                                    <div class="blog-date-title d-flex justify-content-between">
+                                        <h3 class="card-title w-75">
+                                            <a href="https://www.proinfoedu.com/blog-details/4" class="text-decoration-none">
+                                                ð¦ð§ð¨ðð¬ ðð¡ ð§ðð ð¨ð! ...
+                                            </a>
+                                        </h3>
+                                        <span class="text-danger text-end w-25 pe-1"><i class="bi bi-arrow-up-right-circle"></i></span>
+                                    </div>
+                                    <p class="card-text">ð¦ð§ð¨ðð¬ ðð¡ ð§ðð ð¨ð!</p>
+                                    <div>
+                                        <span class="badge rounded-pill text-success bg-success-subtle px-3 py-2">educational</span>
+                                        <span class="badge rounded-pill text-danger bg-danger-subtle px-3 py-2">scholarship</span>
+                                        <span class="badge rounded-pill text-dark bg-dark-subtle px-3 py-2">Visa</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-lg-4">
+                            <div class="card">
+                                <a href="https://www.proinfoedu.com/blog-details/3" class="text-decoration-none">
+                                    <img src="/images/1734762449.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="">
+                                    <p class="blog-date">Proinfo â¢ 21 Dec 2024
+                                    </p>
+                                    <div class="blog-date-title d-flex justify-content-between">
+                                        <h3 class="card-title w-75">
+                                            <a href="https://www.proinfoedu.com/blog-details/3" class="text-decoration-none">
+                                                ð¦ððð±ð ð¶ð» ððððð¿ð®ð¹ð¶ð® â ðð¶ï¿½ ...
+                                            </a>
+                                        </h3>
+                                        <span class="text-danger text-end w-25 pe-1"><i class="bi bi-arrow-up-right-circle"></i></span>
+                                    </div>
+                                    <p class="card-text">ð¦ððð±ð ð¶ð» ððððð¿ð®ð¹ð¶ð® â ðð¶ððµ ðð½ ðð¼ ð¯ð±% ðð°ðµð¼ð¹ð®ð¿ðï¿½</p>
+                                    <div>
+                                        <span class="badge rounded-pill text-success bg-success-subtle px-3 py-2">educational</span>
+                                        <span class="badge rounded-pill text-danger bg-danger-subtle px-3 py-2">scholarship</span>
+                                        <span class="badge rounded-pill text-dark bg-dark-subtle px-3 py-2">Visa</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-lg-4">
+                            <div class="card">
+                                <a href="https://www.proinfoedu.com/blog-details/2" class="text-decoration-none">
+                                    <img src="/images/1734606709.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="">
+                                    <p class="blog-date">Proinfo â¢ 19 Dec 2024
+                                    </p>
+                                    <div class="blog-date-title d-flex justify-content-between">
+                                        <h3 class="card-title w-75">
+                                            <a href="https://www.proinfoedu.com/blog-details/2" class="text-decoration-none">
+                                                ð¦ð§ð¨ðð¬ ðð¡ ððð¡ððð! ...
+                                            </a>
+                                        </h3>
+                                        <span class="text-danger text-end w-25 pe-1"><i class="bi bi-arrow-up-right-circle"></i></span>
+                                    </div>
+                                    <p class="card-text">ð¦ð§ð¨ðð¬ ðð¡ ððð¡ððð!</p>
+                                    <div>
+                                        <span class="badge rounded-pill text-success bg-success-subtle px-3 py-2">educational</span>
+                                        <span class="badge rounded-pill text-danger bg-danger-subtle px-3 py-2">scholarship</span>
+                                        <span class="badge rounded-pill text-dark bg-dark-subtle px-3 py-2">Visa</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Faq Section -->
+
+    <!-- Message Button -->
+    <!-- Message Button -->
+<div class="message-button">
+    <a href="tel:+8801889993282" class="display-button call">
+        <i class='bx bx-phone-call'></i>
+    </a>
+    <a href="https://m.me/proinfobd" class="display-button messenger" target="_blank">
+        <i class='bx bxl-messenger'></i>
+    </a>
+    <a href="https://wa.me/+8801519393939" class="display-button whatsapp" target="_blank">
+        <i class='bx bxl-whatsapp'></i>
+    </a>
+</div>
+    
+
+
+
+    <!--================== footer section =================-->
+    
+<!--================== footer section =================-->
+<section id="footer" style="background-image: url(images/bg-content-05.png); background-size: cover;">
+    <div class="container mb-4">
+        <div class="row g-4">
+            <div class="col-sm-12 col-lg-5 office">
+                <p class="footer-heading fade-element fade-down">Our Office</p>
+                <div class="row ">
+                    <div class="col-sm-6 mb-3">
+                        <p class="footer-sub-heading fade-element fade-down">Dhaka Branch (Head Office)</p>
+                        <a href="">Al-Minar, House-37 (Level-3
+                            & 4), Road-15, Block-D, Banani, Dhaka, Bangladesh</a>
+                    </div>
+                    
+                    <div class="col-sm-6 mb-3">
+                        <p class="footer-sub-heading fade-element fade-down">Khulna Branch</p>
+                        <a href="">18/A (4th floor of Aarong Building), Eden Plaza, KDA New Market, Khulna,
+                            Bangladesh.
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 service-contact">
+                <p class="footer-heading fade-element fade-down">Services</p>
+                <div class="row">
+                    <div class="col">
+                        <div><a href="">Counselling</a></div>
+                        <div><a href="">Admission</a></div>
+                        <div><a href="">Visa Guidance</a></div>
+                    </div>
+                    <div class="col">
+                        <div><a href="">Scholarship</a></div>
+                        <div><a href="">Travel Assistance</a></div>
+                        <div><a href="">Arrival Support</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <p class="footer-heading fade-element fade-down">Contact Us</p>
+                <ul class="footer-list service-contact">
+                    <li><i class='bx bxs-phone-call'></i><a href="mailto:admin@proinfoedu.com" class="ps-3">admin@proinfoedu.com</a>
+                    </li>
+                    <li><i class='bx bx-envelope'></i><a href="" class="ps-3">+880 1519-393939</a>
+                    </li>
+                </ul>
+                <p class="footer-heading fade-element fade-down">Follow Us</p>
+                <div class="social-icon fade-element fade-down">
+                    <a href="https://www.facebook.com/proinfobd" target="_blank"><button type="button"><i class='bx bxl-facebook'></i></button></a>
+                    <a href="https://www.linkedin.com/company/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-linkedin'></i></button></a>
+                    <a href="https://www.youtube.com/channel/UC_ZQ7ocnm54IfKY4MMvOTfQ" target="_blank"><button type="button"><i class='bx bxl-youtube'></i></button></a>
+                    <a href="https://www.instagram.com/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-instagram'></i></button></a>
+                    <a href="https://x.com/ProInfoEduCons1" target="_blank">
+                        <button type="button">
+                            <i class="fa-brands fa-x-twitter" style="font-size: 17px;"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="copyright">
+        <div class="row mt-3">
+            <div class="col">
+                <span>Â©2024 Pro Info & Edu Consultant. All Rights Reserved.</span>
+            </div>
+            <div class="col text-end">
+                <span>Privacy Policy | Terms & Conditions | Cookie Policy</span>
+            </div>
+        </div>
+
+    </section>
+</section>
+
+<!--================== footer section =================-->
+
+
+<script src="frontend/js/jquery-3.6.0.min.js"></script>
+<script src="frontend/purecounter/purecounter_vanilla.js"></script>
+
+<script src="frontend/js/bootstrap-5.3.2.bundle.min.js"></script>
+<script src="frontend/js/main.js"></script>
+<script src="npm/glightbox/dist/js/glightbox.min.js"></script>
+<script src="ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="npm/flatpickr-1"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 3000, // Set autoplay timeout to 3 second
+            responsive: {
+                0: {
+                    items: 1
+                },
+                500: {
+                    items: 2
+                },
+                800: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+    });
+</script>
+<script>
+    
+    
+    
+    </script>
+</body>
+
+</html>

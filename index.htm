@@ -1,0 +1,1791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="frontend/css/bootstrap-5.3.2.min.css">
+    <link rel="stylesheet" href="frontend/css/bootstrap-5.3.2.min.css">
+    <link rel="stylesheet" href="frontend/css/main.css">
+    <link rel="stylesheet" href="frontend/css/style.css">
+    <style>
+        .nav-bar li a { padding: 10px 8px !important; font-size: 0.85rem !important; }
+        .nav-bar li { white-space: nowrap; }
+    </style>
+    <link href="google-fonts.css?family=Roboto:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link href="google-fonts-montserrat.css?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href='boxicons%402.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="ajax/libs/font-awesome/6.5.1/css/all.min.css" rel='stylesheet'>
+    <link href="ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" rel="stylesheet">
+    <link href="ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" rel="stylesheet">
+    <link href="ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="npm/glightbox/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="1.13.6/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="buttons/2.4.1/css/buttons.dataTables.min.css">
+
+    <!-- DataTables JS -->
+    <script src="1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+    <script src="buttons/2.4.1/js/buttons.html5.min.js"></script>
+    <script src="ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+    <script src="ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+
+    <title>European International</title>
+</head>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++
+        Design and Development by Animesh Kar
+        Contact: 01817106176
+        +++++++++++++++++++++++++++++++++++++++ -->
+
+<body>
+
+
+    <!--==================nav section ==================-->
+    <section id="nav">
+        <div class="container">
+            <div class="d-flex align-items-center py-3">
+                <div class="logo">
+                    <a href="index.htm"><img src="images/logo.jpg" alt=""></a>
+                </div>
+                <div class="d-flex align-items-center justify-content-center nav-section">
+                    <div class="d-flex align-items-center px-3 nav-borer nav-hover">
+                        <div class="nav-icon">
+                            <i class='bx bx-phone-call'></i>
+                        </div>
+                        <div class="nav-content">
+                            <label>Requesting a Call:</label>
+                            <span>01898805351</span><br>
+                            <span>01898805359</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center px-3 nav-borer nav-hover">
+                        <div class="nav-icon">
+                            <i class='bx bx-phone-call'></i>
+                        </div>
+                        <div class="nav-content">
+                            <label>Feedback:</label>
+                            <span>01911-523289</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center px-3 nav-hover">
+                        <a href="https://www.proinfoedu.com/apply">
+                            <button type="button" style="background-color:#E84C4C; color:white; cursor:pointer; padding:8px 16px; border:none; border-radius:4px; font-weight:bold;">
+                                Free Consultation
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/proinfobd" target="_blank"><button type="button"><i class='bx bxl-facebook'></i></button></a>
+                    <a href="https://www.linkedin.com/company/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-linkedin'></i></button></a>
+                    <a href="https://www.youtube.com/channel/UC_ZQ7ocnm54IfKY4MMvOTfQ" target="_blank"><button type="button"><i class='bx bxl-youtube'></i></button></a>
+                    <a href="https://www.instagram.com/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-instagram'></i></button></a>
+                    <a href="https://x.com/ProInfoEduCons1" target="_blank">
+                        <button type="button">
+                            <i class="fa-brands fa-x-twitter" style="font-size: 17px;"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================header menu section ==================-->
+    <section id="header" class="sticky-top">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="logo" style="display: none;">
+                    <a href="index.htm"><img src="images/logo.jpg" alt="Logo"></a>
+                </div>
+                <div class="menu d-flex justify-content-between w-100 ">
+                    <ul class="nav-bar d-flex justify-content-between">
+                        <li class="home"><a href="index.htm" class="nav-top-border">Home</a></li>
+                        <li class="service arrow-control">
+                            <a href="#" class="nav-top-border">About</a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                            <ul class="sub-menu-service">
+                                <li><a href="https://www.proinfoedu.com/about-us" class="nav-top-border">About us</a></li>
+                                <li><a href="https://www.proinfoedu.com/certificates" class="nav-top-border">Professional
+                                        Affiliation</a></li>
+                            </ul>
+                        </li>
+                        <li class="service arrow-control">
+                            <a href="#" class="nav-top-border">Destination</a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                            <ul class="sub-menu-service">
+                                <li><a href="australia.html"><span class="flag-icon flag-icon-au"></span>
+                                        Australia</a></li>
+                                <li><a href="newzealand.html"><span class="flag-icon flag-icon-nz"></span> New
+                                        Zealand</a></li>
+                                <li class="pb-4"><a href="canada.html"><span class="flag-icon flag-icon-ca"></span> Canada</a></li>
+                                <li><a href="uk.html"><span class="flag-icon flag-icon-gb"></span> United
+                                        Kingdom</a></li>
+                                <li><a href="europe.html"><span class="flag-icon flag-icon-eu"></span> Europe</a></li>
+                                <li><a href="southkorea.html"><span class="flag-icon flag-icon-kr"></span> South Korea</a></li>
+                                <li class="pt-4"><a href="malaysia.html"><span class="flag-icon flag-icon-my"></span> Malaysia</a></li>
+                            </ul>
+                        </li>
+                        <li class="service arrow-control">
+                            <a href="#" class="nav-top-border">Service</a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                            <ul class="sub-menu-service">
+                                <li class="pt-4"><a href="counseling.html">Education Counseling</a></li>
+                                <li><a href="admission.html">Admission Process</a></li>
+                                <li><a href="visa.html">Visa Application</a></li>
+                                <li><a href="scholarship.html">Scholarship Facilities</a></li>
+                                <li><a href="travel.html">Travel Assistance</a></li>
+                                <li class="pb-4"><a href="support.html">Arrival Support</a></li>
+                            </ul>
+                        </li>
+                        <li class=""><a href="testimonial.html" class="nav-top-border">Testimonial</a>
+                        </li>
+                        <li class=""><a href="index.htm#testimonial" class="nav-top-border">Success Stories</a>
+                        </li>
+                        <li class=""><a href="blog.html" class="nav-top-border">Learning Resources</a></li>
+                        <li class=""><a href="https://www.proinfoedu.com/contact-us" class="nav-top-border">Contact us</a>
+                        </li>
+                    </ul>
+                    <div class="apply-button d-flex justify-content-end">
+                        <a href="https://www.proinfoedu.com/apply" class="pe-1">
+                            <button type="button" style="background-color:#E84C4C; color:white; cursor:pointer; padding:6px 12px; border:none; border-radius:4px; font-weight:bold;">Free Consultation</button>
+                        </a>
+                    </div>
+                    <div class="qr-mobile-button" style="display: none;">
+                        <a href="https://www.proinfoedu.com/qrcode">
+                            <button type="button">QR</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <!-- Apply & QR Buttons -->
+                    <div class="apply d-flex me-3">
+                        <a href="https://www.proinfoedu.com/apply" class="pe-1">
+                            <button type="button" style="background-color:#A8FBD3; color:black; cursor:pointer; padding:6px 6px; border:none; border-radius:4px;">
+                                <i class="fas fa-paper-plane" style="margin-right:4px;"></i> Apply Now
+                            </button>
+                        </a>
+                        <a href="https://www.proinfoedu.com/qrcode">
+                            <button type="button" style="background-color:#A8FBD3; color:black; cursor:pointer; padding:6px 6px; border:none; border-radius:4px;">
+                                <i class="fas fa-qrcode" style="margin-right:4px;"></i> QR
+                            </button>
+                        </a>
+                    </div>
+
+                    <!-- Menu Button -->
+                    <div class="menu-button">
+                        <button type="button" id="menuButton"><i class='bx bx-menu'></i></button>
+                    </div>
+                </div>
+                <!-- <div class="menu-button d-flex align-items-center 1400">
+                    <div class="apply">
+                        <a href="https://www.proinfoedu.com/apply">
+                            <button type="button" class="">Apply Now</button>
+                        </a>
+                    </div>
+                    <button type="button" id="menuButton"><i class='bx bx-menu'></i></button>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu List Stat -->
+    <div class="menu-container side-menu" id="menuContainer">
+        <div class="menu-list custom-scrollbar">
+            <aside id="sidebar" class="sidebar">
+
+                <ul class="sidebar-nav" id="sidebar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.htm">
+                            <i class="bi bi-grid"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" data-bs-target="#about-nav" data-bs-toggle="collapse" href="#">
+                            <i class="bi bi-node-plus"></i><span>About</span><i class="bi bi-chevron-down ms-auto"></i>
+                        </a>
+                        <ul id="about-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                            <li>
+                                <a href="https://www.proinfoedu.com/about-us">
+                                    <i class="bi bi-circle"></i><span>About us</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.proinfoedu.com/certificates">
+                                    <i class="bi bi-circle"></i><span>Professional Affiliation</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" data-bs-target="#destination-nav" data-bs-toggle="collapse" href="#">
+                            <i class="bi bi-menu-button-wide"></i><span>Destination</span><i class="bi bi-chevron-down ms-auto"></i>
+                        </a>
+                        <ul id="destination-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+
+                            <li>
+                                <a href="australia.html">
+                                    <i class="bi bi-circle"></i><span>Australia</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="newzealand.html">
+                                    <i class="bi bi-circle"></i><span>Newzealand</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="canada.html">
+                                    <i class="bi bi-circle"></i><span>Canada</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="uk.html">
+                                    <i class="bi bi-circle"></i><span>United Kingdom</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="europe.html">
+                                    <i class="bi bi-circle"></i><span>Europe</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="southkorea.html">
+                                    <i class="bi bi-circle"></i><span>South Korea</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="malaysia.html">
+                                    <i class="bi bi-circle"></i><span>Malaysia</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" data-bs-target="#service-nav" data-bs-toggle="collapse" href="#">
+                            <i class="bi bi-menu-button-wide"></i><span>Service</span><i class="bi bi-chevron-down ms-auto"></i>
+                        </a>
+                        <ul id="service-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                            <li>
+                                <a href="counseling.html">
+                                    <i class="bi bi-circle"></i><span>Education Counseling</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="admission.html">
+                                    <i class="bi bi-circle"></i><span>Admission Process</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="visa.html">
+                                    <i class="bi bi-circle"></i><span>Visa Application</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="scholarship.html">
+                                    <i class="bi bi-circle"></i><span>Scholarship Facilities</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="travel.html">
+                                    <i class="bi bi-circle"></i><span>Travel Assistance</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="support.html">
+                                    <i class="bi bi-circle"></i><span>Pre & Post - Arrival Support</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="testimonial.html">
+                            <i class="bi bi-body-text"></i>
+                            <span>Testimonial</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.htm#testimonial">
+                            <i class="bi bi-alexa"></i>
+                            <span>Success Stories</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="blog.html">
+                            <i class="bi bi-body-text"></i>
+                            <span>Learning Resources</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="https://www.proinfoedu.com/contact-us">
+                            <i class="bi bi-envelope"></i>
+                            <span>Contact Us</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="side-apply-button text-center mt-4">
+                    <div class="qr-mobile-button" style="display: none;">
+                        <a href="https://www.proinfoedu.com/qrcode">
+                            <button type="button">QR</button>
+                        </a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="https://www.proinfoedu.com/apply">
+                            <button type="button" style="background-color:#E84C4C; color:white; cursor:pointer; padding:8px 16px; border:none; border-radius:4px; font-weight:bold;">Free Consultation</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/proinfobd" target="_blank"><button type="button"><i class='bx bxl-facebook'></i></button></a>
+                    <a href="https://www.linkedin.com/company/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-linkedin'></i></button></a>
+                    <a href="https://www.youtube.com/channel/UC_ZQ7ocnm54IfKY4MMvOTfQ" target="_blank"><button type="button"><i class='bx bxl-youtube'></i></button></a>
+                    <a href="https://www.instagram.com/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-instagram'></i></button></a>
+                    <a href="https://x.com/ProInfoEduCons1" target="_blank">
+                        <button type="button">
+                            <i class="fa-brands fa-x-twitter" style="font-size: 17px;"></i>
+                        </button>
+                    </a>
+                </div>
+            </aside>
+
+
+        </div>
+    </div>
+    <!-- Menu List End-->
+
+    
+        <style>
+        .see-more-btn {
+            color: #fff;
+            background-color: #1C1C52;
+            padding: 10px 20px;
+            border: 2px solid #1C1C52;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .see-more-btn:hover {
+            background-color: #fff;
+            color: #1C1C52;
+            border-color: #1C1C52;
+            transform: translateY(-2px);
+        }
+
+        .see-more-btn:focus {
+            outline: none;
+        }
+    </style>
+     <!-- Upcoming Events Modal -->
+    <!--<div class="modal fade" id="upcomingEventsModal" tabindex="-1" aria-labelledby="upcomingEventsLabel" aria-hidden="true">-->
+    <!--        <div class="modal-dialog modal-lg">-->
+    <!--            <div class="modal-content">-->
+    <!--                <div class="modal-header">-->
+    <!--                    <h5 class="modal-title" id="upcomingEventsLabel" style="font-weight: bold;">Pro Info Edu Consultant & British Council Present: IELTS & UK Education Expo 2025!</h5>-->
+    <!--                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
+    <!--                </div>-->
+    <!--                <div class="modal-body text-center">-->
+    <!--                    <img src="images/adds/26April.png" class="img-fluid mb-3" alt="Upcoming Event">-->
+    <!--                </div>-->
+    <!--                <div class="modal-footer">-->
+    <!--                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+
+    <!--================== banner section ==================-->
+    <div id="banner" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#banner" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#banner" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/banner-00.jpg" class="d-block w-100 carousel-img" alt="...">
+                <div class="carousel-caption">
+                    <div class="container banner-fade-element banner-fade-up">
+                        <div class="banner-content">
+                            
+                            <div class="banner-desc">
+                                <h1 class="banner-fade-element banner-fade-left">Your Trusted Partner in Student Recruitment and Global Education</h1>
+                                <p class="banner-fade-element banner-fade-left" style="color: white; font-size: 1.15rem; margin-top: 12px; text-shadow: 1px 1px 3px rgba(0,0,0,0.6);">Unlock global education opportunities with personalized support in university selection, visa approval, scholarship and accommodation guidance.</p>
+                                <div class="touch-apply">
+                                    <button type="button">GET IN TOUCH</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/banner-02.jpg" class="d-block w-100 carousel-img" alt="...">
+                <div class="carousel-caption">
+                    <div class="container banner-fade-element banner-fade-down">
+                        <div class="banner-content w-100">
+                            <div class="text-center">
+                                
+                                <div class="banner-desc">
+                                    <h1 class="banner-fade-element banner-fade-left">Planning to study abroad?</h1>
+                                    <div class="touch-apply">
+                                        <button type="button">GET IN TOUCH</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src=" images/banner-03.png" class="d-block w-100 carousel-img" alt="...">
+                <div class="carousel-caption">
+                    <div class="container banner-fade-element banner-fade-up">
+                        <div class="banner-content">
+                            
+                            <div class="banner-desc">
+                                <h1 class="banner-fade-element banner-fade-left">A gateway to excellence in global
+                                    education.</h1>
+                                <div class="touch-apply">
+                                    <button type="button">GET IN TOUCH</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#banner" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#banner" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--================== feature section ==================-->
+    <section id="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="feature-left design-content">
+                        <h2 id="fade-text">Our Mission</h2>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="feature-right">
+                        <p>In Bangladesh, approximately one million students complete their higher secondary education each year, creating a vast pool of potential students. Many of these students aspire to study abroad but often face challenges due to a lack of proper guidance. <strong>European International</strong> aims to bridge this gap by providing expert assistance for overseas university admissions, visa applications, and post-study career planning. We are committed to supporting students throughout the entire process, ensuring smooth and successful pathways to international education.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================== marquee section ==================-->
+    <section id="marquee-uni" style="background-image: url(images/bg-content-02.jpg); background-size: cover;">
+        <div class="container">
+            <div class="marquee-uni-content fade-element fade-down">
+                <p>We aim to establish a bond between millions of students, their dreams of achieving successful
+                    careers, and our partner universities.</p>
+                <a href="https://www.proinfoedu.com/apply" type="button"><i class='bx bxs-calendar-alt'></i> Book Appointment</a>
+            </div>
+            <div class="marquee-card">
+                <h3 class="fade-element fade-down">Our Students Studying at</h3>
+                <marquee direction="left" scrollamount="10">
+                    <div class="marquee-images">
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (1).png" class="img-fluid" alt="Marquee Image 1">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (2).png" class="img-fluid" alt="Marquee Image 2">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (3).png" class="img-fluid" alt="Marquee Image 3">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (4).png" class="img-fluid" alt="Marquee Image 4">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (5).png" class="img-fluid" alt="Marquee Image 5">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (6).png" class="img-fluid" alt="Marquee Image 6">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (7).png" class="img-fluid" alt="Marquee Image 7">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (8).png" class="img-fluid" alt="Marquee Image 8">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (9).png" class="img-fluid" alt="Marquee Image 9">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (10).png" class="img-fluid" alt="Marquee Image 10">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (11).png" class="img-fluid" alt="Marquee Image 11">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (12).png" class="img-fluid" alt="Marquee Image 12">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (13).png" class="img-fluid" alt="Marquee Image 13">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (14).png" class="img-fluid" alt="Marquee Image 14">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (15).png" class="img-fluid" alt="Marquee Image 15">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (16).png" class="img-fluid" alt="Marquee Image 16">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (17).png" class="img-fluid" alt="Marquee Image 17">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (18).png" class="img-fluid" alt="Marquee Image 18">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (19).png" class="img-fluid" alt="Marquee Image 19">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (20).png" class="img-fluid" alt="Marquee Image 20">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (21).png" class="img-fluid" alt="Marquee Image 21">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (22).png" class="img-fluid" alt="Marquee Image 22">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (23).png" class="img-fluid" alt="Marquee Image 23">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (24).png" class="img-fluid" alt="Marquee Image 24">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (25).png" class="img-fluid" alt="Marquee Image 25">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (26).png" class="img-fluid" alt="Marquee Image 26">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (27).png" class="img-fluid" alt="Marquee Image 27">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (28).png" class="img-fluid" alt="Marquee Image 28">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (29).png" class="img-fluid" alt="Marquee Image 29">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (30).png" class="img-fluid" alt="Marquee Image 30">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (31).png" class="img-fluid" alt="Marquee Image 31">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (32).png" class="img-fluid" alt="Marquee Image 32">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (33).png" class="img-fluid" alt="Marquee Image 33">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (34).png" class="img-fluid" alt="Marquee Image 34">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (35).png" class="img-fluid" alt="Marquee Image 35">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (36).png" class="img-fluid" alt="Marquee Image 36">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (37).png" class="img-fluid" alt="Marquee Image 37">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (38).png" class="img-fluid" alt="Marquee Image 38">
+                            </div>
+                                                    <div class="marquee-uni">
+                                <img src="images/marquee/marquee (39).png" class="img-fluid" alt="Marquee Image 39">
+                            </div>
+                                            </div>
+                </marquee>
+            </div>
+        </div>
+    </section>
+
+    <!--================== About section ==================-->
+    <section id="about" style="background-image: url(images/bg-content-01.png); background-position: left bottom; background-repeat: no-repeat;">
+        <div class="container">
+            <div class="row about-container">
+                <div class="col-lg-6">
+                    <div class="about-left design-content fade-element fade-down">
+                        <span>ABOUT US</span>
+                        <div class="">
+                            <h2 id="fade-text-2">Our Vision</h2>
+                        </div>
+                        <p class="mb-3 text-sub-tile">Our vision at <strong>European International</strong> is to become a trusted global education consultancy, recognized for excellence, integrity, and student success. We aspire to create life-changing opportunities for students by connecting them with leading international universities and bridging the gap between ambition and achievement. Through personalized guidance, expert support, and a student-focused approach, we aim to empower students worldwide to achieve their dreams and build successful futures.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 fade-element fade-down">
+                    <div class="about-right">
+                        <img src="images/bg-about.jpg" alt="">
+                        <div class="about-box fade-element fade-right ">
+                            <div class="about-box-content">
+                                <span><strong data-purecounter-start="0" data-purecounter-end="17" data-purecounter-duration="2" class="purecounter">17</strong></span><i class='bx bx-plus'></i>
+                                <p>YEARS OF EXPERIENCES</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================== serivce section ==================-->
+    <section id="serivce" style="background-image: url(images/bg-content-03.jpg); background-size: cover;">
+        <div class="container">
+            <div class="text-center fade-element fade-down">
+                <div class="section-title">
+                    <span>FEATURED SERVICES</span>
+                </div>
+                <div class="section-heading">
+                    <h2 id="fade-text-3" class="mb-0 pb-0">We help to get Consultation!</h2>
+                    <p class="service-text">We offer a wide range of specialized services to meet the unique needs of
+                        students and
+                        professionals at different stages of their educational journey.
+                        Our core services include:
+                    </p>
+                </div>
+            </div>
+            <div class="services">
+                <div class="row g-4">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 flip-box fade-element fade-left">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <div class="service-box">
+                                    <div class="text-center">
+                                        <i class='bx bx-cog'></i>
+                                        <h5>Education Counseling</h5>
+                                        <p class="service-text-font">Expert guidance to help you explore various academic
+                                            options and
+                                            career paths, allowing you to make well-informed decisions for a successful
+                                            educational journey.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-box-back" style="background-image: url(images/service-01.jpg ); background-size: cover;">
+                                <div class="service-box">
+                                    <div class="service-box-back">
+                                        <div class="d-flex align-items-center">
+                                            <i class='bx bx-cog'></i>
+                                            <h5>Education Counseling</h5>
+                                        </div>
+                                        <p class="service-text-back">Expert guidance to help you explore various academic
+                                            options and
+                                            career paths, allowing you to make well-informed decisions for a successful
+                                            educational journey.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 flip-box fade-element fade-down">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <div class="service-box">
+                                    <div class="text-center">
+                                        <i class='bx bxs-bank'></i>
+                                        <h5>Admission Process</h5>
+                                        <p class="service-text-font">From start to finish, we strive to provide efficient
+                                            support, streamlining the
+                                            application process for universities across the world.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-box-back" style="background-image: url(images/service-02.jpg ); background-size: cover;">
+                                <div class="service-box">
+                                    <div class="service-box-back">
+                                        <div class="d-flex align-items-center">
+                                            <i class='bx bxs-bank'></i>
+                                            <h5>Admission Process</h5>
+                                        </div>
+                                        <p class="service-text-back">From start to finish, we strive to provide efficient
+                                            support, streamlining the application process for universities across the world.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 flip-box fade-element fade-left">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <div class="service-box">
+                                    <div class="text-center">
+                                        <i class='bx bxs-analyse'></i>
+                                        <h5>Visa Application</h5>
+                                        <p class="service-text-font">Receive expert assistance and continuous support
+                                            throughout your visa
+                                            application journey to ensure a seamless and prosperous experience.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-box-back" style="background-image: url(images/service-04.jpg ); background-size: cover;">
+                                <div class="service-box">
+                                    <div class="service-box-back">
+                                        <div class="d-flex align-items-center">
+                                            <i class='bx bxs-analyse'></i>
+                                            <h5>Visa Application</h5>
+                                        </div>
+                                        <p class="service-text-back">Receive expert assistance and continuous support
+                                            throughout your visa
+                                            application journey to ensure a seamless and prosperous experience.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 flip-box fade-element fade-right">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <div class="service-box">
+                                    <div class="text-center">
+                                        <i class='bx bxs-bar-chart-alt-2'></i>
+                                        <h5>Scholarship Facilities</h5>
+                                        <p class="service-text-font">Gain access to thorough scholarship information,
+                                            allowing you to fully
+                                            optimize your chances of securing financial support.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-box-back" style="background-image: url(images/service-03.jpg ); background-size: cover;">
+                                <div class="service-box">
+                                    <div class="service-box-back">
+                                        <div class="d-flex align-items-center">
+                                            <i class='bx bxs-bar-chart-alt-2'></i>
+                                            <h5>Scholarship Facilities</h5>
+                                        </div>
+                                        <p class="service-text-back">Gain access to thorough scholarship information,
+                                            allowing you to fully
+                                            optimize your chances of securing financial support.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 flip-box fade-element fade-down">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <div class="service-box">
+                                    <div class="text-center">
+                                        <i class='bx bx-user-voice'></i>
+                                        <h5>Travel Assistance</h5>
+                                        <p class="service-text-font">Hassle-free travel arrangements to kickstart your
+                                            educational adventure.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-box-back" style="background-image: url(images/service-05.jpg ); background-size: cover;">
+                                <div class="service-box">
+                                    <div class="service-box-back">
+                                        <div class="d-flex align-items-center">
+                                            <i class='bx bx-user-voice'></i>
+                                            <h5>Travel Assistance</h5>
+                                        </div>
+                                        <p class="service-text-back">Hassle-free travel arrangements to kickstart your
+                                            educational adventure.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 flip-box fade-element fade-right">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <div class="service-box">
+                                    <div class="text-center">
+                                        <i class='bx bx-globe'></i>
+                                        <h5>Pre-Departure Guidance and Post-Arrival Support</h5>
+                                        <p class="service-text-font">Assistance in securing comfortable and
+                                            suitable accommodation, enhancing the overall study experience.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-box-back" style="background-image: url(images/service-06.jpg ); background-size: cover;">
+                                <div class="service-box">
+                                    <div class="service-box-back">
+                                        <div class="d-flex align-items-center">
+                                            <i class='bx bx-globe'></i>
+                                            <h5>Pre-Departure Guidance and Post-Arrival Support</h5>
+                                        </div>
+                                        <p class="service-text-back">Assistance in securing comfortable and
+                                            suitable accommodation, enhancing the overall study experience.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================== Testimonial section =============-->
+    <section id="testimonial" style="background-color: #fff;">
+        <div class="container">
+            <div class="testimonial-title pb-5">
+                <h1 class="fade-element fade-down"><span style="color: #c72027;">Success Stories</span></h1>
+            </div>
+            <div class="row  g-4">
+                <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-left">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/Mahiariyanarthi.jpg" alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Mahi Ariyan Arthe</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">UK</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">Alhamdulillah, by the grace of Almighty Allah, I have received my student visa on 11th January 2025. This is an amazing feeling for me and my family. Throughout this journey, Pro-info Edu Consultant has been a great help. They were extremely supportive and amiable. I want to thank all the staff at Pro-info Education, especially Kamrul Moon bhai. I highly recommend them to anyone who wants to study abroad and is looking for guidance. Thanks, and please pray for me ð¤</p>
+                            <button class="btn btn-link see-more-btn" data-id="3" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/uk/RUL.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-left">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/YasinHossain.png" alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Yasin Hossain</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">Australia</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">Iâm incredibly grateful to PRO INFO & EDUCATION CONSULTANT for their amazing support in helping me process my visa for Victoria University in Australia. The entire process was smooth, and their team was professional, knowledgeable, and always available to answer my questions. They made what could have been a stressful experience feel effortless. I highly recommend PRO INFO & EDUCATION CONSULTANT to anyone looking for reliable assistance with their visa or education journey!</p>
+                            <button class="btn btn-link see-more-btn" data-id="3" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/australian/Victoria-University.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-left">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/NavidIshrak.png" alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Navid Ishrak</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">Australia</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">Pro Info and Edu Consultant is best agency for me to fulfill my dream. I got my australian student visa yesterday. The counselors, in particular, are exceptionally intelligent and very cooperative. I would like to recommend everyone visit Pro Info and Edu Consultant to study in their dream country, like Australia, New Zealand, Canada, the USA, etc.</p>
+                            <button class="btn btn-link see-more-btn" data-id="3" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/australian/Central-Queensland-University.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-left">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/FarhanNafis.png" alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Farhan Nafis</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">Australia</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">This place offers all sorts of consultancy services for students who want to study abroad.
+Pro Info & Edu Consultant helped me twice (for Germany in 2017 and Australia in 2025) for the whole journey starting from university application to getting visa. Also, I have positive reviews from my friends and other known persons whom I recommended to go there.
+The best thing about Pro Info is their extensive experience in this industry. Also, their motivated approach to assist a student and professional approach to prepare and manage every steps of the applications are quite remarkable. They have affiliations with a large range of universities across Europe, Canada, Australia, Malaysia, etc.
+I strongly recommend every student wishing to study abroad to visit Pro Info's office before choosing their educational agent.
+Like</p>
+                            <button class="btn btn-link see-more-btn" data-id="3" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/australian/Central-Queensland-University.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-left">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/TahsinIsrak.png" alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Tahsin Israk</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">Australia</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">I had an excellent experience working with Pro Info and specially with Councilor Udash Kumar. From the very beginning, their team was professional, attentive, and responsive to all my needs. Counselor Udash Kumar provided valuable insights and guidance, making the entire process smooth and stress-free. The agency demonstrated a strong commitment to delivering results while maintaining clear communication throughout. I highly recommend Pro Info and Councilor Udash Kumar for anyone looking for reliable and effective support about going Abroad.</p>
+                            <button class="btn btn-link see-more-btn" data-id="3" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/australian/Central-Queensland-University.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-left">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/14.anni.png" alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Anni</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">Australia</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">I highly recommend Pro Info & Edu Consultant to the students who are interested to do their higher education abroad. They are really friendly and communicative. Also they are easy and comfortable to work with. The exited fact is, I got my visa just in 4 days after my medical. They helped me throughout my entire process for studying in Australia. I am truly grateful to them for helping me to fulfil my dreams. Thank you â¤ï¸.</p>
+                            <button class="btn btn-link see-more-btn" data-id="3" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/australian/Central-Queensland-University.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-left">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/13.Ashikur Rahman.jpg" alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Ashikur Rahman</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">Australia</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">Alhamdulillah I got my australian visa on the 8th
+                                of December.Through out my journey Pro Info & Edu Consultant helped me a lot.I specially
+                                want to thank Udash Kumar vaiya as he was so helpful to me.</p>
+                            <button class="btn btn-link see-more-btn" data-id="3" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/australian/University-of-Tasmania.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-left">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/12.Md Rabby Hasan.jpg" alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Md Rabby Hasan</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">Australia</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">Alhamdulillah, I have got my Australia Student
+                                Visa on 8th January 2025. Throughout my entire journey, Pro Info has helped me immensely. I
+                                will remain grateful to them.</p>
+                            <button class="btn btn-link see-more-btn" data-id="4" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/australian/University-of-Tasmania.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-left">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/11.Aninda kar.jpg" alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Aninda kar</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">Australia</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">I have got my Australian visa recently
+                                Pro info has helped me consistently throughout the process
+                                Iâll highly recommend pro info and edu consultant if u want to study abroad
+                            </p>
+                            <button class="btn btn-link see-more-btn" data-id="5" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/australian/University-of-Tasmania.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-left">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/10.Simon Sayan.jpg" alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Simon Sayan</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">Malaysia</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">For me, Pro Info and Edu Consultant is a dream
+                                center. I got my Malaysian visa yesterday. The counselors, in particular, are exceptionally
+                                intelligent and cooperative. I would like to recommend everyone visit Pro Info and Edu
+                                Consultant to study in their dream country, like Australia, New Zealand, Canada, the USA,
+                                etc.
+                            </p>
+                            <button class="btn btn-link see-more-btn" data-id="6" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/malaysia/sunway-University.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-left">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/14.Shahriyer Shihab.jpg" alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Shahriyer Shihab</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">Australia</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">Alhamdulillah I got my australian visa on the 15th
+                                instant. This journey became smooth under the professional guidance of Pro Info Edu
+                                consultant. I luckily got the chance to get introduced with this amazing agency through an
+                                educational expo held in February this year. Their words were so inspiring which made me
+                                confident of my ambition to study in Australia & they surely didnât disappoint me. So I'm
+                                highly grateful to them.
+                                And a special thanks to Mezbah vaiya for his efforts & dedications towards me. He always
+                                treated me like his younger brother & considered my goal as his own. Vaiya guided me in
+                                every steps from the very beginning. Especially, he helped much in solving my issues
+                                regarding study gap, financial documents and so on. Moreover, vaiya tried his best in every
+                                way possible to make my journey worry free. It was a pleasant experience being consulted by
+                                Mezbah vaiya</p>
+                            <button class="btn btn-link see-more-btn" data-id="2" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/australian/University-of-Tasmania.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-left">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/1.Umma-Ruman-Bristy.jpg" alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Mrs. Umma Ruman Brishty</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">Australia</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">I started my overseas study journey just four
+                                months back. At that time, I had no idea about the procedures and pathways. I don't know why
+                                I did choose the Pro Info & Edu Consultant for taking assistance and whom should I thank for
+                                that. Because, they were just a super memorable and responsible working partner who always
+                                did their best in every step. I have received my subclass 500 visa along with my husband and
+                                baby just at the end of 4th month of starting the procedures. The journey with Proshun dada
+                                and Mezba vaia is going to be an unforgettable event of my life for their absolute
+                                cooperation and great sense of responsibility. Anyone can feel free to take their help
+                                without a second thought. I highly recommend them as a helping platform for studying abroad.
+                            </p>
+                            <button class="btn btn-link see-more-btn" data-id="6" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/australian/University-of-Tasmania.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-down">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/6.Junaid-Armaan.png" alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Junaid Armaan </p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">Malaysia</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">Pro Info and Edu Consultant is the best agency I
+                                have encountered, and I'm not saying this lightly. I've interacted with numerous agencies
+                                and consultants for my goal of studying abroad, but discovering Pro Info was one of the
+                                luckiest coincidences of my life. Their consultancy service is truly praiseworthy,
+                                particularly the efforts of Kamrul Moon Bhaiya. Because of him, my visa process was
+                                incredibly smooth, and I received my visa in less than a month. He worked tirelessly day and
+                                night, ensuring that everything went perfectlyâfrom getting an offer from my desired
+                                university to helping me secure my visa. He patiently addressed all my questions, even the
+                                trivial ones, regardless of the hour. I feel extremely fortunate to have had him as my
+                                consultant.</p>
+                            <button class="btn btn-link see-more-btn" data-id="6" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/malaysia/Taylors-University.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-right">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/3.Dibboyjoti-Roy-Diya.png" alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Dibboyjoti Roy Diya </p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">Australia</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">I've got my Australian Student visa on 10 October
+                                2023 within 8days after lodgment. Special thanks to my agency Pro info and Edu Consultant. I
+                                would like to recommend this Agency to you guys. They are amazing to process your file. They
+                                provide unparalleled service. They always go above and above my expectations with their
+                                service quality. In addition, to being welcoming, the team is quite knowledgeable. Their
+                                service is unique by its effectiveness and timeliness. I was completely impressed with their
+                                professionalism. Mohuya apu deserves special recognition for his expert assistance during
+                                this journey. She has my sincere gratitude</p>
+                            <button class="btn btn-link see-more-btn" data-id="6" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/australian/Victoria-University.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-left">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/5.Prokash-Das.jpg " alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Prokash Das</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">Australia</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">Review Alhamdulillah, I got my visa yesterday,
+                                and Iâm so grateful to my counselors for their incredible support. Srabony apu and Zayed
+                                vaia, from Pro Info & Edu Consultant, have been so helpful and caring throughout the
+                                process. For anyone considering studying abroad, I believe this is the best agency to guide
+                                you.</p>
+                            <button class="btn btn-link see-more-btn" data-id="6" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/australian/Central-Queensland-University.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-down">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/4.Shabi-Mohammad-Juogi.png" alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Shabi Mohammad Juogi </p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">Australia</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">Hello, this is Shabi Mohammad Juogi.
+                                Alhamdulillah, I got my visa in 21 February, 2024. All thanks to Pro Info Edu Consultant and
+                                my consultant Mohua Apu that they made this job very easy for me. I suggest everyone who are
+                                interested to go Australia. This is the right place to work with.
+                            </p>
+                            <button class="btn btn-link see-more-btn" data-id="6" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/australian/James-Cook-University.webp" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-right">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/2.Adiva-Mehnaj-Protity.jpg" alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Adiva Mehnaj Protity</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">Australia</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">Great and supportive team who ensures your
+                                university application process is as hassle free as ever. They went through every single
+                                tiny detail to make sure I get my visa without any hassle. Got my visa within a week. Thanks
+                                to the team for all their help and support</p>
+                            <button class="btn btn-link see-more-btn" data-id="6" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/australian/Swinburne-University-of-Technology.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-left">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/7.Liton-Dhar.png" alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Liton Dhar </p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">Canada</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">It's Pro Info & Edu Consultant which glittered my
+                                gloomy dream of studying in Canada. The man behind the organization Proshun Roy is a true
+                                magician. I never feel there a so-called education consultant organization. I wish they will
+                                bring back the trust of this sector and also fulfill the dream of the students of
+                                Bangladesh.
+                            </p>
+                            <button class="btn btn-link see-more-btn" data-id="6" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/canada/fanshawe-college.png" alt="" style="width: 120px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-down">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/8.Zamal-Haider.png" alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Zamal Haider </p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">United States</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">I have a good experience with Pro Info &
+                                education consultant they are so cooperative toward their clients. Iâm satisfied with their
+                                service and the best part is there's no hidden charge they claim all things were nit and
+                                straight. I definitely recommend Pro Info & Edu Consultant for anyone who want to go to USA.
+                            </p>
+                            <button class="btn btn-link see-more-btn" data-id="6" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/usa/The-University-of-Tampa.png" alt="" style="width: 120px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 fade-element fade-right">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center pb-3">
+                                <div class="testimonial-person-img bg-secondary-subtle">
+                                    <img src="images/review/9.Mamunur-Rashid.jpg" alt="">
+                                </div>
+                                <div class="testimonial-person">
+                                    <p>Mamunur Rashid </p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="6" viewbox="0 0 24 6" style="fill: #5C7189;">
+                                        <path d="M24 3L19 0.113248L19 5.88675L24 3ZM2.18557e-08 3.5L19.5 3.5L19.5 2.5L-2.18557e-08 2.5L2.18557e-08 3.5Z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-secondary">United Kingdom</span>
+                                </div>
+                            </div>
+                            <p class="testimonial-content text-secondary">I got my visa approved for and will be pursuing a
+                                BA degree at the University of South Wales in the UK. The team at Pro Info & Edu Consultant
+                                was incredibly professional, friendly, and their support was exceptional. Iâm especially
+                                grateful to Mr. Proshun Ray and Mr. Zayed for their guidance. I highly recommend them to
+                                anyone planning to study abroad!</p>
+                            <button class="btn btn-link see-more-btn" data-id="6" style="display: none;">See More</button>
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="testimonial-img">
+                                    <img src="images/review/logo/uk/University-of-South-Wales.png" alt="" style="width: 120px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================== reviews section =================-->
+    <section id="review" style="background-image: url(images/bg-content-05.png); background-size: cover;">
+        <div class="container">
+            <div class="row  g-5">
+                <div class="col-md-4 fade-element fade-down">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="0 0 24 24" style="fill: #fff;">
+                                    <path d="M4 11h6a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1zm1-6h4v4H5V5zm15-2h-6a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zm-1 6h-4V5h4v4zm-9 12a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6zm-5-6h4v4H5v-4zm13-1h-2v2h-2v2h2v2h2v-2h2v-2h-2z">
+                                    </path>
+                                </svg>
+                                <h1 class="px-2 mb-0"><strong data-purecounter-start="0" data-purecounter-end="3500" data-purecounter-duration="1" class="purecounter"></strong><span class="px-2">+</span>
+                                </h1>
+                                <span></span>
+                            </div>
+                            <h4 class="mt-3">Students Served</h4>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-element fade-down">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="0 0 24 24" style="fill: #fff;">
+                                    <path d="M4 11h6a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1zm1-6h4v4H5V5zm15-2h-6a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zm-1 6h-4V5h4v4zm-9 12a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6zm-5-6h4v4H5v-4zm13-1h-2v2h-2v2h2v2h2v-2h2v-2h-2z">
+                                    </path>
+                                </svg>
+                                <h1 class="px-2 mb-0"><strong data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="1" class="purecounter">300</strong><span class="px-2">+</span>
+                                </h1>
+                            </div>
+                            <h4 class="mt-3">5 Stars reviews</h4>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-element fade-down">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="0 0 24 24" style="fill: #fff;">
+                                    <path d="M4 11h6a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1zm1-6h4v4H5V5zm15-2h-6a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zm-1 6h-4V5h4v4zm-9 12a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6zm-5-6h4v4H5v-4zm13-1h-2v2h-2v2h2v2h2v-2h2v-2h-2z">
+                                    </path>
+                                </svg>
+                                <h1 class="px-2 mb-0"><strong data-purecounter-start="0" data-purecounter-end="40" data-purecounter-duration="1" class="purecounter">25</strong><span class="px-2">+</span>
+                                </h1>
+                            </div>
+                            <h4 class="mt-3">Team members</h4>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================== award section ==================-->
+    <section id="award" style="background-image: url( images/bg-content-05.png); background-size: cover;">
+        <div class="container">
+            <div class="">
+                <div class="award-title pb-4 text-center">
+    <h3 class="fade-element fade-left" style="white-space: nowrap;">Professional Affiliation & <span style="color: red;"> Membership
+                        </span></h3>
+</div>
+            </div>
+            <div class="d-flex owl-carousel fade-element fade-down">
+                <div class="mx-2">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <span id="iasBadge" data-account-id="3935"></span>
+                            <script async="" defer="" crossorigin="anonymous" src="scripts/iasbadgeid.js"></script>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-2">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="award-img">
+                                <img src="images/certificates/icef.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-2">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="award-img">
+                                <img src="images/certificates/awards-1.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-2">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="award-img">
+                                <img src="images/certificates/awards-2.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-2">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="award-img">
+                                <img src="images/certificates/awards-3.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-2">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="award-img">
+                                <img src="images/certificates/awards-4.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-2">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="award-img">
+                                <img src="images/certificates/awards-5.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-2">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="award-img">
+                                <img src="images/certificates/awards-7.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-2">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="award-img">
+                                <img src="images/certificates/awards-8.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div></section>
+    <!--================== world section ==================-->
+
+    <!-- Message Button -->
+    <!-- Message Button -->
+<div class="message-button">
+    <a href="tel:+8801889993282" class="display-button call">
+        <i class='bx bx-phone-call'></i>
+    </a>
+    <a href="https://m.me/proinfobd" class="display-button messenger" target="_blank">
+        <i class='bx bxl-messenger'></i>
+    </a>
+    <a href="https://wa.me/+8801519393939" class="display-button whatsapp" target="_blank">
+        <i class='bx bxl-whatsapp'></i>
+    </a>
+</div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const testimonials = document.querySelectorAll('.testimonial-content');
+            const seeMoreBtns = document.querySelectorAll('.see-more-btn');
+
+            testimonials.forEach((testimonial, index) => {
+                let contentText = testimonial.innerText || testimonial.textContent;
+                let wordLimit = 25; // Set word limit for truncation
+                let contentWords = contentText.split(' ');
+
+                if (contentWords.length > wordLimit) {
+                    // Truncate content and add 'See More' functionality
+                    let truncatedText = contentWords.slice(0, wordLimit).join(' ') + '...';
+                    testimonial.innerText = truncatedText;
+
+                    // Show "See More" button
+                    seeMoreBtns[index].style.display = 'inline-block';
+
+                    // Handle "See More" button click event
+                    seeMoreBtns[index].addEventListener('click', function () {
+                        testimonial.innerText = contentText; // Reveal full text
+                        seeMoreBtns[index].style.display = 'none'; // Hide the button
+                    });
+                }
+            });
+        });
+    </script>
+    <script>
+    window.addEventListener("load", function() {
+        setTimeout(function() {
+            let eventModal = new bootstrap.Modal(document.getElementById("upcomingEventsModal"));
+            eventModal.show();
+        }, 500);
+    });
+</script>
+
+
+    
+
+
+
+    <!--================== footer section =================-->
+    
+<!--================== footer section =================-->
+<section id="footer" style="background-image: url(images/bg-content-05.png); background-size: cover;">
+    <div class="container mb-4">
+        <div class="row g-4">
+            <div class="col-sm-12 col-lg-5 office">
+                <p class="footer-heading fade-element fade-down">Our Office</p>
+                <div class="row ">
+                    <div class="col-sm-6 mb-3">
+                        <p class="footer-sub-heading fade-element fade-down">Dhaka Branch (Head Office)</p>
+                        <a href="">Al-Minar, House-37 (Level-3
+                            & 4), Road-15, Block-D, Banani, Dhaka, Bangladesh</a>
+                    </div>
+                    
+                    <div class="col-sm-6 mb-3">
+                        <p class="footer-sub-heading fade-element fade-down">Khulna Branch</p>
+                        <a href="">18/A (4th floor of Aarong Building), Eden Plaza, KDA New Market, Khulna,
+                            Bangladesh.
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 service-contact">
+                <p class="footer-heading fade-element fade-down">Services</p>
+                <div class="row">
+                    <div class="col">
+                        <div><a href="">Counselling</a></div>
+                        <div><a href="">Admission</a></div>
+                        <div><a href="">Visa Guidance</a></div>
+                    </div>
+                    <div class="col">
+                        <div><a href="">Scholarship</a></div>
+                        <div><a href="">Travel Assistance</a></div>
+                        <div><a href="">Arrival Support</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <p class="footer-heading fade-element fade-down">Contact Us</p>
+                <ul class="footer-list service-contact">
+                    <li><i class='bx bxs-phone-call'></i><a href="mailto:admin@proinfoedu.com" class="ps-3">admin@proinfoedu.com</a>
+                    </li>
+                    <li><i class='bx bx-envelope'></i><a href="" class="ps-3">+880 1519-393939</a>
+                    </li>
+                </ul>
+                <p class="footer-heading fade-element fade-down">Follow Us</p>
+                <div class="social-icon fade-element fade-down">
+                    <a href="https://www.facebook.com/proinfobd" target="_blank"><button type="button"><i class='bx bxl-facebook'></i></button></a>
+                    <a href="https://www.linkedin.com/company/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-linkedin'></i></button></a>
+                    <a href="https://www.youtube.com/channel/UC_ZQ7ocnm54IfKY4MMvOTfQ" target="_blank"><button type="button"><i class='bx bxl-youtube'></i></button></a>
+                    <a href="https://www.instagram.com/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-instagram'></i></button></a>
+                    <a href="https://x.com/ProInfoEduCons1" target="_blank">
+                        <button type="button">
+                            <i class="fa-brands fa-x-twitter" style="font-size: 17px;"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="copyright">
+        <div class="row mt-3">
+            <div class="col">
+                <span>Â©2024 Pro Info & Edu Consultant. All Rights Reserved.</span>
+            </div>
+            <div class="col text-end">
+                <span>Privacy Policy | Terms & Conditions | Cookie Policy</span>
+            </div>
+        </div>
+
+    </section>
+</section>
+
+<!--================== footer section =================-->
+
+
+<script src="frontend/js/jquery-3.6.0.min.js"></script>
+<script src="frontend/purecounter/purecounter_vanilla.js"></script>
+
+<script src="frontend/js/bootstrap-5.3.2.bundle.min.js"></script>
+<script src="frontend/js/main.js"></script>
+<script src="npm/glightbox/dist/js/glightbox.min.js"></script>
+<script src="ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="npm/flatpickr-1"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 3000, // Set autoplay timeout to 3 second
+            responsive: {
+                0: {
+                    items: 1
+                },
+                500: {
+                    items: 2
+                },
+                800: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+    });
+</script>
+<script>
+    
+    
+    
+    </script>
+
+</body>
+
+</html>

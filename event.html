@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="frontend/css/bootstrap-5.3.2.min.css">
+    <link rel="stylesheet" href="frontend/css/bootstrap-5.3.2.min.css">
+    <link rel="stylesheet" href="frontend/css/main.css">
+    <link rel="stylesheet" href="frontend/css/style.css">
+    <link href="google-fonts.css?family=Roboto:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link href="google-fonts-montserrat.css?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href='boxicons%402.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="ajax/libs/font-awesome/6.5.1/css/all.min.css" rel='stylesheet'>
+    <link href="ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" rel="stylesheet">
+    <link href="ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" rel="stylesheet">
+    <link href="ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="npm/glightbox/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="1.13.6/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="buttons/2.4.1/css/buttons.dataTables.min.css">
+
+    <!-- DataTables JS -->
+    <script src="1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+    <script src="buttons/2.4.1/js/buttons.html5.min.js"></script>
+    <script src="ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+    <script src="ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+
+    <title>Pro Info & Edu Consultant</title>
+</head>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++
+        Design and Development by Animesh Kar
+        Contact: 01817106176
+        +++++++++++++++++++++++++++++++++++++++ -->
+
+<body>
+
+
+    <!--==================nav section ==================-->
+    <section id="nav">
+        <div class="container">
+            <div class="d-flex align-items-center py-3">
+                <div class="logo">
+                    <a href="index.htm"><img src="images/logo.jpg" alt=""></a>
+                </div>
+                <div class="d-flex align-items-center justify-content-center nav-section">
+                    <div class="d-flex align-items-center px-3 nav-borer nav-hover">
+                        <div class="nav-icon">
+                            <i class='bx bx-phone-call'></i>
+                        </div>
+                        <div class="nav-content">
+                            <label>Requesting a Call:</label>
+                            <span>01889993282</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center px-3 nav-borer nav-hover">
+                        <div class="nav-icon">
+                            <i class='bx bx-phone-call'></i>
+                        </div>
+                        <div class="nav-content">
+                            <label>Feedback:</label>
+                            <span>01519393939</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center px-3 nav-hover">
+                        <div class="nav-icon-loc">
+                            <i class='bx bx-alarm'></i>
+                        </div>
+                        <div class="nav-content">
+                            <label>Saturday - Thursday :</label>
+                            <span>10:00am - 6:00pm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/proinfobd" target="_blank"><button type="button"><i class='bx bxl-facebook'></i></button></a>
+                    <a href="https://www.linkedin.com/company/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-linkedin'></i></button></a>
+                    <a href="https://www.youtube.com/channel/UC_ZQ7ocnm54IfKY4MMvOTfQ" target="_blank"><button type="button"><i class='bx bxl-youtube'></i></button></a>
+                    <a href="https://www.instagram.com/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-instagram'></i></button></a>
+                    <a href="https://x.com/ProInfoEduCons1" target="_blank">
+                        <button type="button">
+                            <i class="fa-brands fa-x-twitter" style="font-size: 17px;"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================header menu section ==================-->
+    <section id="header" class="sticky-top">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="logo" style="display: none;">
+                    <a href="index.htm"><img src="images/logo.jpg" alt="Logo"></a>
+                </div>
+                <div class="menu d-flex justify-content-between w-100 ">
+                    <ul class="nav-bar d-flex justify-content-between">
+                        <li class="home"><a href="index.htm" class="nav-top-border">Home</a></li>
+                        <!--<li><a href="https://www.proinfoedu.com/about-us" class="nav-top-border">About us</a></li>-->
+                        <li class="service arrow-control">
+                            <a href="#" class="nav-top-border">Destination</a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                            <ul class="sub-menu-service">
+                                <li><a href="australia.html"><span class="flag-icon flag-icon-au"></span>
+                                        Australia</a></li>
+                                <li><a href="newzealand.html"><span class="flag-icon flag-icon-nz"></span> New
+                                        Zealand</a></li>
+                                <li class="pb-4"><a href="canada.html"><span class="flag-icon flag-icon-ca"></span> Canada</a></li>
+                                <li><a href="uk.html"><span class="flag-icon flag-icon-gb"></span> United
+                                        Kingdom</a></li>
+                                <li><a href="europe.html"><span class="flag-icon flag-icon-eu"></span> Europe</a></li>
+                                <li><a href="southkorea.html"><span class="flag-icon flag-icon-kr"></span> South Korea</a></li>
+                                <li class="pt-4"><a href="malaysia.html"><span class="flag-icon flag-icon-my"></span> Malaysia</a></li>
+                            </ul>
+                        </li>
+                        <li class="service arrow-control">
+                            <a href="#" class="nav-top-border">Service</a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                            <ul class="sub-menu-service">
+                                <li class="pt-4"><a href="counseling.html">Education Counseling</a></li>
+                                <li><a href="admission.html">Admission Process</a></li>
+                                <li><a href="visa.html">Visa Application</a></li>
+                                <li><a href="scholarship.html">Scholarship Facilities</a></li>
+                                <li><a href="travel.html">Travel Assistance</a></li>
+                                <li class="pb-4"><a href="support.html">Arrival Support</a></li>
+                            </ul>
+                        </li>
+                        <li class=""><a href="testimonial.html" class="nav-top-border">Testimonial</a>
+                        </li>
+                        <li class="service arrow-control">
+                            <a href="#" class="nav-top-border">Events</a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                            <ul class="sub-menu-service">
+                                <li class="pt-4"><a href="event.html">Our Events</a></li>
+                                <li class="pb-4"><a href="event-gallery.html">Our Gallery</a></li>
+                            </ul>
+                        </li>
+                        <li class=""><a href="blog.html" class="nav-top-border">Blogs</a></li>
+                        <li class="service arrow-control">
+                            <a href="#" class="nav-top-border">About</a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                            <ul class="sub-menu-service">
+                                <li><a href="https://www.proinfoedu.com/about-us" class="nav-top-border">About us</a></li>
+                                <li><a href="https://www.proinfoedu.com/certificates" class="nav-top-border">Professional
+                                        Affiliation</a></li>
+                            </ul>
+                        </li>
+                        <li class=""><a href="https://www.proinfoedu.com/contact-us" class="nav-top-border">Contact us</a>
+                        </li>
+                    </ul>
+                    <div class="apply-button d-flex justify-content-end">
+                        <!-- <a href="https://www.proinfoedu.com/apply" class="pe-1">
+                            <button type="button" class="">Apply Now <i class='bx bx-right-arrow-alt'></i></button>
+                        </a> -->
+                        <a href="tel:+8801519393939" class="pe-1">
+                            <button type="button" class="">Complain</button>
+                        </a>
+                    </div>
+                    <div class="qr-mobile-button" style="display: none;">
+                        <a href="https://www.proinfoedu.com/qrcode">
+                            <button type="button">QR</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <!-- Apply & QR Buttons -->
+                    <div class="apply d-flex me-3">
+                        <a href="https://www.proinfoedu.com/apply" class="pe-1">
+                            <button type="button" style="background-color:#A8FBD3; color:black; cursor:pointer; padding:6px 6px; border:none; border-radius:4px;">
+                                <i class="fas fa-paper-plane" style="margin-right:4px;"></i> Apply Now
+                            </button>
+                        </a>
+                        <a href="https://www.proinfoedu.com/qrcode">
+                            <button type="button" style="background-color:#A8FBD3; color:black; cursor:pointer; padding:6px 6px; border:none; border-radius:4px;">
+                                <i class="fas fa-qrcode" style="margin-right:4px;"></i> QR
+                            </button>
+                        </a>
+                    </div>
+
+                    <!-- Menu Button -->
+                    <div class="menu-button">
+                        <button type="button" id="menuButton"><i class='bx bx-menu'></i></button>
+                    </div>
+                </div>
+                <!-- <div class="menu-button d-flex align-items-center 1400">
+                    <div class="apply">
+                        <a href="https://www.proinfoedu.com/apply">
+                            <button type="button" class="">Apply Now</button>
+                        </a>
+                    </div>
+                    <button type="button" id="menuButton"><i class='bx bx-menu'></i></button>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu List Stat -->
+    <div class="menu-container side-menu" id="menuContainer">
+        <div class="menu-list custom-scrollbar">
+            <aside id="sidebar" class="sidebar">
+
+                <ul class="sidebar-nav" id="sidebar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.htm">
+                            <i class="bi bi-grid"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <!--<li class="nav-item">-->
+                    <!--    <a class="nav-link " href="https://www.proinfoedu.com/about-us">-->
+                    <!--        <i class="bi bi-node-plus"></i>-->
+                    <!--        <span>About Us</span>-->
+                    <!--    </a>-->
+                    <!--</li>-->
+                    <li class="service arrow-control">
+                        <a href="#" class="nav-top-border">About</a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                        <ul class="sub-menu-service">
+                            <li><a href="https://www.proinfoedu.com/about-us" class="nav-top-border">About us</a></li>
+                            <li><a href="https://www.proinfoedu.com/certificates" class="nav-top-border">Professional
+                                    Affiliation</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" data-bs-target="#destination-nav" data-bs-toggle="collapse" href="#">
+                            <i class="bi bi-menu-button-wide"></i><span>Destination</span><i class="bi bi-chevron-down ms-auto"></i>
+                        </a>
+                        <ul id="destination-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+
+                            <li>
+                                <a href="australia.html">
+                                    <i class="bi bi-circle"></i><span>Australia</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="newzealand.html">
+                                    <i class="bi bi-circle"></i><span>Newzealand</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="canada.html">
+                                    <i class="bi bi-circle"></i><span>Canada</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="uk.html">
+                                    <i class="bi bi-circle"></i><span>United Kingdom</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="europe.html">
+                                    <i class="bi bi-circle"></i><span>Europe</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="southkorea.html">
+                                    <i class="bi bi-circle"></i><span>South Korea</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="malaysia.html">
+                                    <i class="bi bi-circle"></i><span>Malaysia</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" data-bs-target="#service-nav" data-bs-toggle="collapse" href="#">
+                            <i class="bi bi-menu-button-wide"></i><span>Service</span><i class="bi bi-chevron-down ms-auto"></i>
+                        </a>
+                        <ul id="service-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                            <li>
+                                <a href="counseling.html">
+                                    <i class="bi bi-circle"></i><span>Education Counseling</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="admission.html">
+                                    <i class="bi bi-circle"></i><span>Admission Process</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="visa.html">
+                                    <i class="bi bi-circle"></i><span>Visa Application</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="scholarship.html">
+                                    <i class="bi bi-circle"></i><span>Scholarship Facilities</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="travel.html">
+                                    <i class="bi bi-circle"></i><span>Travel Assistance</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="support.html">
+                                    <i class="bi bi-circle"></i><span>Pre & Post - Arrival Support</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="testimonial.html">
+                            <i class="bi bi-body-text"></i>
+                            <span>Testimonials</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" data-bs-target="#event-nav" data-bs-toggle="collapse">
+                            <i class="bi bi-alexa"></i><span>Events</span><i class="bi bi-chevron-down ms-auto"></i>
+                        </a>
+                        <ul id="event-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                            <li>
+                                <a href="event.html">
+                                    <i class="bi bi-circle"></i><span>Our Events</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="event-gallery.html">
+                                    <i class="bi bi-circle"></i><span>Our Gallery</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="blog.html">
+                            <i class="bi bi-body-text"></i>
+                            <span>Blogs</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="https://www.proinfoedu.com/contact-us">
+                            <i class="bi bi-envelope"></i>
+                            <span>Contact Us</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="side-apply-button text-center mt-4">
+                    <div class="qr-mobile-button" style="display: none;">
+                        <a href="https://www.proinfoedu.com/qrcode">
+                            <button type="button">QR</button>
+                        </a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="https://www.proinfoedu.com/apply">
+                            <button type="button" class="">Apply Now <i class='bx bx-right-arrow-alt'></i></button>
+                        </a>
+                    </div>
+                    <div class="">
+                        <a href="tel:+8801519393939">
+                            <button type="button" class="">Complain Box</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/proinfobd" target="_blank"><button type="button"><i class='bx bxl-facebook'></i></button></a>
+                    <a href="https://www.linkedin.com/company/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-linkedin'></i></button></a>
+                    <a href="https://www.youtube.com/channel/UC_ZQ7ocnm54IfKY4MMvOTfQ" target="_blank"><button type="button"><i class='bx bxl-youtube'></i></button></a>
+                    <a href="https://www.instagram.com/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-instagram'></i></button></a>
+                    <a href="https://x.com/ProInfoEduCons1" target="_blank">
+                        <button type="button">
+                            <i class="fa-brands fa-x-twitter" style="font-size: 17px;"></i>
+                        </button>
+                    </a>
+                </div>
+            </aside>
+
+
+        </div>
+    </div>
+    <!-- Menu List End-->
+
+    
+    
+<!-- Event Page Section -->
+<section id="event-page" class="event-page section dark-background">
+    <img src="images/img/hero-bg.jpg" alt="">
+    <div class="container d-flex flex-column align-items-center text-center mt-auto">
+        <h2 class="text-light fw-bold">Our Annual<br><span>Educational</span> Counselling</h2>
+        <p>Learn more about Pro Info & Edu Consultant Event.</p>
+        <div class="">
+            <a target="_blank" href="https://www.facebook.com/reel/393279577046114" class="glightbox pulsating-play-btn mt-3"></a>
+        </div>
+    </div>
+</section>
+
+<!-- Schedule Section -->
+<section id="schedule" class="schedule section mb-3">
+    <div class="container">
+        <div class="container page-section-title pt-5 mt-5 text-center">
+            <h2 class="text-dark fw-bold">Event Schedule</h2>
+        </div>
+
+        <!-- Tabs Navigation -->
+        <ul class="nav nav-tabs justify-content-center" role="tablist">
+            <li class="nav-item mb-3">
+                <a class="nav-link active" href="#all-events" role="tab" data-bs-toggle="tab">All</a>
+            </li>
+                            <li class="nav-item mb-3">
+                    <a class="nav-link" href="#day-1" role="tab" data-bs-toggle="tab">Australia</a>
+                </li>
+                            <li class="nav-item mb-3">
+                    <a class="nav-link" href="#day-2" role="tab" data-bs-toggle="tab">New Zealand</a>
+                </li>
+                            <li class="nav-item mb-3">
+                    <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">Canada</a>
+                </li>
+                            <li class="nav-item mb-3">
+                    <a class="nav-link" href="#day-4" role="tab" data-bs-toggle="tab">The USA</a>
+                </li>
+                            <li class="nav-item mb-3">
+                    <a class="nav-link" href="#day-5" role="tab" data-bs-toggle="tab">The UK</a>
+                </li>
+                            <li class="nav-item mb-3">
+                    <a class="nav-link" href="#day-6" role="tab" data-bs-toggle="tab">Ireland</a>
+                </li>
+                            <li class="nav-item mb-3">
+                    <a class="nav-link" href="#day-7" role="tab" data-bs-toggle="tab">Malaysia</a>
+                </li>
+                            <li class="nav-item mb-3">
+                    <a class="nav-link" href="#day-8" role="tab" data-bs-toggle="tab">Sweden</a>
+                </li>
+                            <li class="nav-item mb-3">
+                    <a class="nav-link" href="#day-9" role="tab" data-bs-toggle="tab">Denmark</a>
+                </li>
+                            <li class="nav-item mb-3">
+                    <a class="nav-link" href="#day-10" role="tab" data-bs-toggle="tab">Hungary</a>
+                </li>
+                            <li class="nav-item mb-3">
+                    <a class="nav-link" href="#day-11" role="tab" data-bs-toggle="tab">Netherland</a>
+                </li>
+                    </ul>
+
+        <!-- Tab Content -->
+        <div class="tab-content row justify-content-center">
+            <!-- All Events -->
+            <div role="tabpanel" class="col-lg-12 tab-pane fade show active" id="all-events">
+                <div class="row">
+                                                                        <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card shadow">
+                                <img src="/images/1764666851.jpg" class="card-img-top" alt="ððððð¿ð®ð¹ð¶ð® &amp; ð¡ð²ð ð­ð²ð®ð¹ð®ð»ð± ðð½ð½ð¹ð¶ð°ð®ðð¶ð¼ð» ðð®ð ð®ð¬ð®ð±">
+                                    <!-- <img src="images" class="card-img-top"
+                                        alt="ððððð¿ð®ð¹ð¶ð® &amp; ð¡ð²ð ð­ð²ð®ð¹ð®ð»ð± ðð½ð½ð¹ð¶ð°ð®ðð¶ð¼ð» ðð®ð ð®ð¬ð®ð±"> -->
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">ððððð¿ð®ð¹ð¶ð® &amp; ð¡ð²ð ð­ð²ð®ð¹ð®ð»ð± ðð½ð½ð¹ð¶ð°ð®ðð¶ð¼ð» ðð®ð ð®ð¬ð®ð±</h5>
+                                        <span class="badge rounded-pill text-success 
+                                            bg-success-subtle 
+                                            px-3 py-2">
+                                            Published
+                                        </span>
+                                        <p class="card-text mt-2">20 Dec 2025 | 
+                                            10:00 AM</p>
+                                        <a href="https://www.proinfoedu.com/event-details/10" class="btn btn-primary">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                                                                                                <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card shadow">
+                                <img src="/images/1734778115.jpg" class="card-img-top" alt="ð£ð¿ð¼ ðð»ð³ð¼ ððððð¿ð®ð¹ð¶ð® &amp; ð¡ð²ð ð­ð²ð®ð¹ð®ð»ð± ðð±ðð°ð®ðð¶ð¼ð» ððð½ð¼ ð®ð¬ð®ð±">
+                                    <!-- <img src="images" class="card-img-top"
+                                        alt="ð£ð¿ð¼ ðð»ð³ð¼ ððððð¿ð®ð¹ð¶ð® &amp; ð¡ð²ð ð­ð²ð®ð¹ð®ð»ð± ðð±ðð°ð®ðð¶ð¼ð» ððð½ð¼ ð®ð¬ð®ð±"> -->
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">ð£ð¿ð¼ ðð»ð³ð¼ ððððð¿ð®ð¹ð¶ð® &amp; ð¡ð²ð ð­ð²ð®ð¹ð®ð»ð± ðð±ðð°ð®ðð¶ð¼ð» ððð½ð¼ ð®ð¬ð®ð±</h5>
+                                        <span class="badge rounded-pill text-success 
+                                            bg-success-subtle 
+                                            px-3 py-2">
+                                            Published
+                                        </span>
+                                        <p class="card-text mt-2">25 Jan 2025 | 
+                                            10:00 AM</p>
+                                        <a href="https://www.proinfoedu.com/event-details/3" class="btn btn-primary">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                                                                                                                                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card shadow">
+                                <img src="/images/1739419415.png" class="card-img-top" alt="ð£ð¿ð¼ð¶ð»ð³ð¼ ðð¶ð´ð´ð²ðð ð¨ð¦ð &amp; ððð¡ððð ððð¨ððð§ðð¢ð¡ ðð«ð£ð¢ ð®ð¬ð®ð±">
+                                    <!-- <img src="images" class="card-img-top"
+                                        alt="ð£ð¿ð¼ð¶ð»ð³ð¼ ðð¶ð´ð´ð²ðð ð¨ð¦ð &amp; ððð¡ððð ððð¨ððð§ðð¢ð¡ ðð«ð£ð¢ ð®ð¬ð®ð±"> -->
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">ð£ð¿ð¼ð¶ð»ð³ð¼ ðð¶ð´ð´ð²ðð ð¨ð¦ð &amp; ððð¡ððð ððð¨ððð§ðð¢ð¡ ðð«ð£ð¢ ð®ð¬ð®ð±</h5>
+                                        <span class="badge rounded-pill text-success 
+                                            bg-success-subtle 
+                                            px-3 py-2">
+                                            Published
+                                        </span>
+                                        <p class="card-text mt-2">26 Feb 2025 | 
+                                            10:00 AM</p>
+                                        <a href="https://www.proinfoedu.com/event-details/6" class="btn btn-primary">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                                                                                                <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card shadow">
+                                <img src="/images/1776849799.jpg" class="card-img-top" alt="ðððð§ð¦ &amp; ð¨ð ðð±ðð°ð®ðð¶ð¼ð» ððð½ð¼ ð®ð¬ð®ð² ð¼ð¿ð´ð®ð»ð¶ðð²ð± ð¯ð ðð¿ð¶ðð¶ððµ ðð¼ðð»ð°ð¶ð¹ &amp; ð£ð¿ð¼ ðð»ð³ð¼ ðð±ð ðð¼ð»ððð¹ðð®ð»ð!">
+                                    <!-- <img src="images" class="card-img-top"
+                                        alt="ðððð§ð¦ &amp; ð¨ð ðð±ðð°ð®ðð¶ð¼ð» ððð½ð¼ ð®ð¬ð®ð² ð¼ð¿ð´ð®ð»ð¶ðð²ð± ð¯ð ðð¿ð¶ðð¶ððµ ðð¼ðð»ð°ð¶ð¹ &amp; ð£ð¿ð¼ ðð»ð³ð¼ ðð±ð ðð¼ð»ððð¹ðð®ð»ð!"> -->
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">ðððð§ð¦ &amp; ð¨ð ðð±ðð°ð®ðð¶ð¼ð» ððð½ð¼ ð®ð¬ð®ð² ð¼ð¿ð´ð®ð»ð¶ðð²ð± ð¯ð ðð¿ð¶ðð¶ððµ ðð¼ðð»ð°ð¶ð¹ &amp; ð£ð¿ð¼ ðð»ð³ð¼ ðð±ð ðð¼ð»ððð¹ðð®ð»ð!</h5>
+                                        <span class="badge rounded-pill text-success 
+                                            bg-success-subtle 
+                                            px-3 py-2">
+                                            Published
+                                        </span>
+                                        <p class="card-text mt-2">24 Apr 2026 | 
+                                            10:00 AM</p>
+                                        <a href="https://www.proinfoedu.com/event-details/11" class="btn btn-primary">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card shadow">
+                                <img src="/images/1764666470.jpg" class="card-img-top" alt="ð¨ð ðð½ð½ð¹ð¶ð°ð®ðð¶ð¼ð» ðð®ð âð¦ððð±ð ð¶ð» ð¨ð">
+                                    <!-- <img src="images" class="card-img-top"
+                                        alt="ð¨ð ðð½ð½ð¹ð¶ð°ð®ðð¶ð¼ð» ðð®ð âð¦ððð±ð ð¶ð» ð¨ð"> -->
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">ð¨ð ðð½ð½ð¹ð¶ð°ð®ðð¶ð¼ð» ðð®ð âð¦ððð±ð ð¶ð» ð¨ð</h5>
+                                        <span class="badge rounded-pill text-success 
+                                            bg-success-subtle 
+                                            px-3 py-2">
+                                            Published
+                                        </span>
+                                        <p class="card-text mt-2">13 Dec 2025 | 
+                                            10:00 AM</p>
+                                        <a href="https://www.proinfoedu.com/event-details/9" class="btn btn-primary">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card shadow">
+                                <img src="/images/1740024540.jpg" class="card-img-top" alt="Pro Info Edu Consultant &amp; British Council Present: IELTS &amp; UK Education Expo 2025!">
+                                    <!-- <img src="images" class="card-img-top"
+                                        alt="Pro Info Edu Consultant &amp; British Council Present: IELTS &amp; UK Education Expo 2025!"> -->
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Pro Info Edu Consultant &amp; British Council Present: IELTS &amp; UK Education Expo 2025!</h5>
+                                        <span class="badge rounded-pill text-success 
+                                            bg-success-subtle 
+                                            px-3 py-2">
+                                            Published
+                                        </span>
+                                        <p class="card-text mt-2">26 Apr 2025 | 
+                                            10:00 AM</p>
+                                        <a href="https://www.proinfoedu.com/event-details/8" class="btn btn-primary">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card shadow">
+                                <img src="/images/1739684860.jpg" class="card-img-top" alt="Dreaming of studying in the UK?">
+                                    <!-- <img src="images" class="card-img-top"
+                                        alt="Dreaming of studying in the UK?"> -->
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Dreaming of studying in the UK?</h5>
+                                        <span class="badge rounded-pill text-success 
+                                            bg-success-subtle 
+                                            px-3 py-2">
+                                            Published
+                                        </span>
+                                        <p class="card-text mt-2">18 Feb 2025 | 
+                                            12:00 PM</p>
+                                        <a href="https://www.proinfoedu.com/event-details/7" class="btn btn-primary">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card shadow">
+                                <img src="/images/1739014877.png" class="card-img-top" alt="ðð¿ð²ð®ðºð¶ð»ð´ ð¼ð³ ð¦ððð±ðð¶ð»ð´ ð¶ð» ððµð² ð¨ð?">
+                                    <!-- <img src="images" class="card-img-top"
+                                        alt="ðð¿ð²ð®ðºð¶ð»ð´ ð¼ð³ ð¦ððð±ðð¶ð»ð´ ð¶ð» ððµð² ð¨ð?"> -->
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">ðð¿ð²ð®ðºð¶ð»ð´ ð¼ð³ ð¦ððð±ðð¶ð»ð´ ð¶ð» ððµð² ð¨ð?</h5>
+                                        <span class="badge rounded-pill text-success 
+                                            bg-success-subtle 
+                                            px-3 py-2">
+                                            Published
+                                        </span>
+                                        <p class="card-text mt-2">12 Feb 2025 | 
+                                            10:00 AM</p>
+                                        <a href="https://www.proinfoedu.com/event-details/5" class="btn btn-primary">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                                                                                                                                                                                                                                                                                                                                    </div>
+            </div>
+
+            <!-- Country-wise Events -->
+                            <div role="tabpanel" class="col-lg-12 tab-pane fade" id="day-1">
+                    <div class="row">
+                                                    <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card shadow">
+                                    <!-- <img src="images/events" class="card-img-top"
+                                        alt="ððððð¿ð®ð¹ð¶ð® &amp; ð¡ð²ð ð­ð²ð®ð¹ð®ð»ð± ðð½ð½ð¹ð¶ð°ð®ðð¶ð¼ð» ðð®ð ð®ð¬ð®ð±"> -->
+                                        <img src="/images/1764666851.jpg" class="card-img-top" alt="ððððð¿ð®ð¹ð¶ð® &amp; ð¡ð²ð ð­ð²ð®ð¹ð®ð»ð± ðð½ð½ð¹ð¶ð°ð®ðð¶ð¼ð» ðð®ð ð®ð¬ð®ð±">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">ððððð¿ð®ð¹ð¶ð® &amp; ð¡ð²ð ð­ð²ð®ð¹ð®ð»ð± ðð½ð½ð¹ð¶ð°ð®ðð¶ð¼ð» ðð®ð ð®ð¬ð®ð±</h5>
+                                        <span class="badge rounded-pill text-success 
+                                            bg-success-subtle 
+                                            px-3 py-2">
+                                            Published
+                                        </span>
+                                        <p class="card-text mt-2">20 Dec 2025 | 
+                                            10:00 AM</p>
+                                        <a href="https://www.proinfoedu.com/event-details/10" class="btn btn-primary">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+                            <div role="tabpanel" class="col-lg-12 tab-pane fade" id="day-2">
+                    <div class="row">
+                                                    <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card shadow">
+                                    <!-- <img src="images/events" class="card-img-top"
+                                        alt="ð£ð¿ð¼ ðð»ð³ð¼ ððððð¿ð®ð¹ð¶ð® &amp; ð¡ð²ð ð­ð²ð®ð¹ð®ð»ð± ðð±ðð°ð®ðð¶ð¼ð» ððð½ð¼ ð®ð¬ð®ð±"> -->
+                                        <img src="/images/1734778115.jpg" class="card-img-top" alt="ð£ð¿ð¼ ðð»ð³ð¼ ððððð¿ð®ð¹ð¶ð® &amp; ð¡ð²ð ð­ð²ð®ð¹ð®ð»ð± ðð±ðð°ð®ðð¶ð¼ð» ððð½ð¼ ð®ð¬ð®ð±">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">ð£ð¿ð¼ ðð»ð³ð¼ ððððð¿ð®ð¹ð¶ð® &amp; ð¡ð²ð ð­ð²ð®ð¹ð®ð»ð± ðð±ðð°ð®ðð¶ð¼ð» ððð½ð¼ ð®ð¬ð®ð±</h5>
+                                        <span class="badge rounded-pill text-success 
+                                            bg-success-subtle 
+                                            px-3 py-2">
+                                            Published
+                                        </span>
+                                        <p class="card-text mt-2">25 Jan 2025 | 
+                                            10:00 AM</p>
+                                        <a href="https://www.proinfoedu.com/event-details/3" class="btn btn-primary">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+                            <div role="tabpanel" class="col-lg-12 tab-pane fade" id="day-3">
+                    <div class="row">
+                                            </div>
+                </div>
+                            <div role="tabpanel" class="col-lg-12 tab-pane fade" id="day-4">
+                    <div class="row">
+                                                    <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card shadow">
+                                    <!-- <img src="images/events" class="card-img-top"
+                                        alt="ð£ð¿ð¼ð¶ð»ð³ð¼ ðð¶ð´ð´ð²ðð ð¨ð¦ð &amp; ððð¡ððð ððð¨ððð§ðð¢ð¡ ðð«ð£ð¢ ð®ð¬ð®ð±"> -->
+                                        <img src="/images/1739419415.png" class="card-img-top" alt="ð£ð¿ð¼ð¶ð»ð³ð¼ ðð¶ð´ð´ð²ðð ð¨ð¦ð &amp; ððð¡ððð ððð¨ððð§ðð¢ð¡ ðð«ð£ð¢ ð®ð¬ð®ð±">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">ð£ð¿ð¼ð¶ð»ð³ð¼ ðð¶ð´ð´ð²ðð ð¨ð¦ð &amp; ððð¡ððð ððð¨ððð§ðð¢ð¡ ðð«ð£ð¢ ð®ð¬ð®ð±</h5>
+                                        <span class="badge rounded-pill text-success 
+                                            bg-success-subtle 
+                                            px-3 py-2">
+                                            Published
+                                        </span>
+                                        <p class="card-text mt-2">26 Feb 2025 | 
+                                            10:00 AM</p>
+                                        <a href="https://www.proinfoedu.com/event-details/6" class="btn btn-primary">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+                            <div role="tabpanel" class="col-lg-12 tab-pane fade" id="day-5">
+                    <div class="row">
+                                                    <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card shadow">
+                                    <!-- <img src="images/events" class="card-img-top"
+                                        alt="ðððð§ð¦ &amp; ð¨ð ðð±ðð°ð®ðð¶ð¼ð» ððð½ð¼ ð®ð¬ð®ð² ð¼ð¿ð´ð®ð»ð¶ðð²ð± ð¯ð ðð¿ð¶ðð¶ððµ ðð¼ðð»ð°ð¶ð¹ &amp; ð£ð¿ð¼ ðð»ð³ð¼ ðð±ð ðð¼ð»ððð¹ðð®ð»ð!"> -->
+                                        <img src="/images/1776849799.jpg" class="card-img-top" alt="ðððð§ð¦ &amp; ð¨ð ðð±ðð°ð®ðð¶ð¼ð» ððð½ð¼ ð®ð¬ð®ð² ð¼ð¿ð´ð®ð»ð¶ðð²ð± ð¯ð ðð¿ð¶ðð¶ððµ ðð¼ðð»ð°ð¶ð¹ &amp; ð£ð¿ð¼ ðð»ð³ð¼ ðð±ð ðð¼ð»ððð¹ðð®ð»ð!">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">ðððð§ð¦ &amp; ð¨ð ðð±ðð°ð®ðð¶ð¼ð» ððð½ð¼ ð®ð¬ð®ð² ð¼ð¿ð´ð®ð»ð¶ðð²ð± ð¯ð ðð¿ð¶ðð¶ððµ ðð¼ðð»ð°ð¶ð¹ &amp; ð£ð¿ð¼ ðð»ð³ð¼ ðð±ð ðð¼ð»ððð¹ðð®ð»ð!</h5>
+                                        <span class="badge rounded-pill text-success 
+                                            bg-success-subtle 
+                                            px-3 py-2">
+                                            Published
+                                        </span>
+                                        <p class="card-text mt-2">24 Apr 2026 | 
+                                            10:00 AM</p>
+                                        <a href="https://www.proinfoedu.com/event-details/11" class="btn btn-primary">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card shadow">
+                                    <!-- <img src="images/events" class="card-img-top"
+                                        alt="ð¨ð ðð½ð½ð¹ð¶ð°ð®ðð¶ð¼ð» ðð®ð âð¦ððð±ð ð¶ð» ð¨ð"> -->
+                                        <img src="/images/1764666470.jpg" class="card-img-top" alt="ð¨ð ðð½ð½ð¹ð¶ð°ð®ðð¶ð¼ð» ðð®ð âð¦ððð±ð ð¶ð» ð¨ð">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">ð¨ð ðð½ð½ð¹ð¶ð°ð®ðð¶ð¼ð» ðð®ð âð¦ððð±ð ð¶ð» ð¨ð</h5>
+                                        <span class="badge rounded-pill text-success 
+                                            bg-success-subtle 
+                                            px-3 py-2">
+                                            Published
+                                        </span>
+                                        <p class="card-text mt-2">13 Dec 2025 | 
+                                            10:00 AM</p>
+                                        <a href="https://www.proinfoedu.com/event-details/9" class="btn btn-primary">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card shadow">
+                                    <!-- <img src="images/events" class="card-img-top"
+                                        alt="Pro Info Edu Consultant &amp; British Council Present: IELTS &amp; UK Education Expo 2025!"> -->
+                                        <img src="/images/1740024540.jpg" class="card-img-top" alt="Pro Info Edu Consultant &amp; British Council Present: IELTS &amp; UK Education Expo 2025!">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Pro Info Edu Consultant &amp; British Council Present: IELTS &amp; UK Education Expo 2025!</h5>
+                                        <span class="badge rounded-pill text-success 
+                                            bg-success-subtle 
+                                            px-3 py-2">
+                                            Published
+                                        </span>
+                                        <p class="card-text mt-2">26 Apr 2025 | 
+                                            10:00 AM</p>
+                                        <a href="https://www.proinfoedu.com/event-details/8" class="btn btn-primary">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card shadow">
+                                    <!-- <img src="images/events" class="card-img-top"
+                                        alt="Dreaming of studying in the UK?"> -->
+                                        <img src="/images/1739684860.jpg" class="card-img-top" alt="Dreaming of studying in the UK?">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Dreaming of studying in the UK?</h5>
+                                        <span class="badge rounded-pill text-success 
+                                            bg-success-subtle 
+                                            px-3 py-2">
+                                            Published
+                                        </span>
+                                        <p class="card-text mt-2">18 Feb 2025 | 
+                                            12:00 PM</p>
+                                        <a href="https://www.proinfoedu.com/event-details/7" class="btn btn-primary">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card shadow">
+                                    <!-- <img src="images/events" class="card-img-top"
+                                        alt="ðð¿ð²ð®ðºð¶ð»ð´ ð¼ð³ ð¦ððð±ðð¶ð»ð´ ð¶ð» ððµð² ð¨ð?"> -->
+                                        <img src="/images/1739014877.png" class="card-img-top" alt="ðð¿ð²ð®ðºð¶ð»ð´ ð¼ð³ ð¦ððð±ðð¶ð»ð´ ð¶ð» ððµð² ð¨ð?">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">ðð¿ð²ð®ðºð¶ð»ð´ ð¼ð³ ð¦ððð±ðð¶ð»ð´ ð¶ð» ððµð² ð¨ð?</h5>
+                                        <span class="badge rounded-pill text-success 
+                                            bg-success-subtle 
+                                            px-3 py-2">
+                                            Published
+                                        </span>
+                                        <p class="card-text mt-2">12 Feb 2025 | 
+                                            10:00 AM</p>
+                                        <a href="https://www.proinfoedu.com/event-details/5" class="btn btn-primary">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+                            <div role="tabpanel" class="col-lg-12 tab-pane fade" id="day-6">
+                    <div class="row">
+                                            </div>
+                </div>
+                            <div role="tabpanel" class="col-lg-12 tab-pane fade" id="day-7">
+                    <div class="row">
+                                            </div>
+                </div>
+                            <div role="tabpanel" class="col-lg-12 tab-pane fade" id="day-8">
+                    <div class="row">
+                                            </div>
+                </div>
+                            <div role="tabpanel" class="col-lg-12 tab-pane fade" id="day-9">
+                    <div class="row">
+                                            </div>
+                </div>
+                            <div role="tabpanel" class="col-lg-12 tab-pane fade" id="day-10">
+                    <div class="row">
+                                            </div>
+                </div>
+                            <div role="tabpanel" class="col-lg-12 tab-pane fade" id="day-11">
+                    <div class="row">
+                                            </div>
+                </div>
+                    </div>
+    </div>
+</section>
+
+<!-- Message Button -->
+<!-- Message Button -->
+<div class="message-button">
+    <a href="tel:+8801889993282" class="display-button call">
+        <i class='bx bx-phone-call'></i>
+    </a>
+    <a href="https://m.me/proinfobd" class="display-button messenger" target="_blank">
+        <i class='bx bxl-messenger'></i>
+    </a>
+    <a href="https://wa.me/+8801519393939" class="display-button whatsapp" target="_blank">
+        <i class='bx bxl-whatsapp'></i>
+    </a>
+</div>
+
+    
+
+
+
+    <!--================== footer section =================-->
+    
+<!--================== footer section =================-->
+<section id="footer" style="background-image: url(images/bg-content-05.png); background-size: cover;">
+    <div class="container mb-4">
+        <div class="row g-4">
+            <div class="col-sm-12 col-lg-5 office">
+                <p class="footer-heading fade-element fade-down">Our Office</p>
+                <div class="row ">
+                    <div class="col-sm-6 mb-3">
+                        <p class="footer-sub-heading fade-element fade-down">Dhaka Branch (Head Office)</p>
+                        <a href="">Al-Minar, House-37 (Level-3
+                            & 4), Road-15, Block-D, Banani, Dhaka, Bangladesh</a>
+                    </div>
+                    
+                    <div class="col-sm-6 mb-3">
+                        <p class="footer-sub-heading fade-element fade-down">Khulna Branch</p>
+                        <a href="">18/A (4th floor of Aarong Building), Eden Plaza, KDA New Market, Khulna,
+                            Bangladesh.
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 service-contact">
+                <p class="footer-heading fade-element fade-down">Services</p>
+                <div class="row">
+                    <div class="col">
+                        <div><a href="">Counselling</a></div>
+                        <div><a href="">Admission</a></div>
+                        <div><a href="">Visa Guidance</a></div>
+                    </div>
+                    <div class="col">
+                        <div><a href="">Scholarship</a></div>
+                        <div><a href="">Travel Assistance</a></div>
+                        <div><a href="">Arrival Support</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <p class="footer-heading fade-element fade-down">Contact Us</p>
+                <ul class="footer-list service-contact">
+                    <li><i class='bx bxs-phone-call'></i><a href="mailto:admin@proinfoedu.com" class="ps-3">admin@proinfoedu.com</a>
+                    </li>
+                    <li><i class='bx bx-envelope'></i><a href="" class="ps-3">+880 1519-393939</a>
+                    </li>
+                </ul>
+                <p class="footer-heading fade-element fade-down">Follow Us</p>
+                <div class="social-icon fade-element fade-down">
+                    <a href="https://www.facebook.com/proinfobd" target="_blank"><button type="button"><i class='bx bxl-facebook'></i></button></a>
+                    <a href="https://www.linkedin.com/company/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-linkedin'></i></button></a>
+                    <a href="https://www.youtube.com/channel/UC_ZQ7ocnm54IfKY4MMvOTfQ" target="_blank"><button type="button"><i class='bx bxl-youtube'></i></button></a>
+                    <a href="https://www.instagram.com/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-instagram'></i></button></a>
+                    <a href="https://x.com/ProInfoEduCons1" target="_blank">
+                        <button type="button">
+                            <i class="fa-brands fa-x-twitter" style="font-size: 17px;"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="copyright">
+        <div class="row mt-3">
+            <div class="col">
+                <span>Â©2024 Pro Info & Edu Consultant. All Rights Reserved.</span>
+            </div>
+            <div class="col text-end">
+                <span>Privacy Policy | Terms & Conditions | Cookie Policy</span>
+            </div>
+        </div>
+
+    </section>
+</section>
+
+<!--================== footer section =================-->
+
+
+<script src="frontend/js/jquery-3.6.0.min.js"></script>
+<script src="frontend/purecounter/purecounter_vanilla.js"></script>
+
+<script src="frontend/js/bootstrap-5.3.2.bundle.min.js"></script>
+<script src="frontend/js/main.js"></script>
+<script src="npm/glightbox/dist/js/glightbox.min.js"></script>
+<script src="ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="npm/flatpickr-1"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 3000, // Set autoplay timeout to 3 second
+            responsive: {
+                0: {
+                    items: 1
+                },
+                500: {
+                    items: 2
+                },
+                800: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+    });
+</script>
+<script>
+    
+    
+    
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="frontend/css/bootstrap-5.3.2.min.css">
+    <link rel="stylesheet" href="frontend/css/bootstrap-5.3.2.min.css">
+    <link rel="stylesheet" href="frontend/css/main.css">
+    <link rel="stylesheet" href="frontend/css/style.css">
+    <link href="google-fonts.css?family=Roboto:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link href="google-fonts-montserrat.css?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href='boxicons%402.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="ajax/libs/font-awesome/6.5.1/css/all.min.css" rel='stylesheet'>
+    <link href="ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" rel="stylesheet">
+    <link href="ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" rel="stylesheet">
+    <link href="ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="npm/glightbox/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="1.13.6/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="buttons/2.4.1/css/buttons.dataTables.min.css">
+
+    <!-- DataTables JS -->
+    <script src="1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+    <script src="buttons/2.4.1/js/buttons.html5.min.js"></script>
+    <script src="ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+    <script src="ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+
+    <title>Pro Info & Edu Consultant</title>
+</head>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++
+        Design and Development by Animesh Kar
+        Contact: 01817106176
+        +++++++++++++++++++++++++++++++++++++++ -->
+
+<body>
+
+
+    <!--==================nav section ==================-->
+    <section id="nav">
+        <div class="container">
+            <div class="d-flex align-items-center py-3">
+                <div class="logo">
+                    <a href="index.htm"><img src="images/logo.jpg" alt=""></a>
+                </div>
+                <div class="d-flex align-items-center justify-content-center nav-section">
+                    <div class="d-flex align-items-center px-3 nav-borer nav-hover">
+                        <div class="nav-icon">
+                            <i class='bx bx-phone-call'></i>
+                        </div>
+                        <div class="nav-content">
+                            <label>Requesting a Call:</label>
+                            <span>01889993282</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center px-3 nav-borer nav-hover">
+                        <div class="nav-icon">
+                            <i class='bx bx-phone-call'></i>
+                        </div>
+                        <div class="nav-content">
+                            <label>Feedback:</label>
+                            <span>01519393939</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center px-3 nav-hover">
+                        <div class="nav-icon-loc">
+                            <i class='bx bx-alarm'></i>
+                        </div>
+                        <div class="nav-content">
+                            <label>Saturday - Thursday :</label>
+                            <span>10:00am - 6:00pm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/proinfobd" target="_blank"><button type="button"><i class='bx bxl-facebook'></i></button></a>
+                    <a href="https://www.linkedin.com/company/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-linkedin'></i></button></a>
+                    <a href="https://www.youtube.com/channel/UC_ZQ7ocnm54IfKY4MMvOTfQ" target="_blank"><button type="button"><i class='bx bxl-youtube'></i></button></a>
+                    <a href="https://www.instagram.com/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-instagram'></i></button></a>
+                    <a href="https://x.com/ProInfoEduCons1" target="_blank">
+                        <button type="button">
+                            <i class="fa-brands fa-x-twitter" style="font-size: 17px;"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================header menu section ==================-->
+    <section id="header" class="sticky-top">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="logo" style="display: none;">
+                    <a href="index.htm"><img src="images/logo.jpg" alt="Logo"></a>
+                </div>
+                <div class="menu d-flex justify-content-between w-100 ">
+                    <ul class="nav-bar d-flex justify-content-between">
+                        <li class="home"><a href="index.htm" class="nav-top-border">Home</a></li>
+                        <!--<li><a href="https://www.proinfoedu.com/about-us" class="nav-top-border">About us</a></li>-->
+                        <li class="service arrow-control">
+                            <a href="#" class="nav-top-border">Destination</a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                            <ul class="sub-menu-service">
+                                <li><a href="australia.html"><span class="flag-icon flag-icon-au"></span>
+                                        Australia</a></li>
+                                <li><a href="newzealand.html"><span class="flag-icon flag-icon-nz"></span> New
+                                        Zealand</a></li>
+                                <li class="pb-4"><a href="canada.html"><span class="flag-icon flag-icon-ca"></span> Canada</a></li>
+                                <li><a href="uk.html"><span class="flag-icon flag-icon-gb"></span> United
+                                        Kingdom</a></li>
+                                <li><a href="europe.html"><span class="flag-icon flag-icon-eu"></span> Europe</a></li>
+                                <li><a href="southkorea.html"><span class="flag-icon flag-icon-kr"></span> South Korea</a></li>
+                                <li class="pt-4"><a href="malaysia.html"><span class="flag-icon flag-icon-my"></span> Malaysia</a></li>
+                            </ul>
+                        </li>
+                        <li class="service arrow-control">
+                            <a href="#" class="nav-top-border">Service</a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                            <ul class="sub-menu-service">
+                                <li class="pt-4"><a href="counseling.html">Education Counseling</a></li>
+                                <li><a href="admission.html">Admission Process</a></li>
+                                <li><a href="visa.html">Visa Application</a></li>
+                                <li><a href="scholarship.html">Scholarship Facilities</a></li>
+                                <li><a href="travel.html">Travel Assistance</a></li>
+                                <li class="pb-4"><a href="support.html">Arrival Support</a></li>
+                            </ul>
+                        </li>
+                        <li class=""><a href="testimonial.html" class="nav-top-border">Testimonial</a>
+                        </li>
+                        <li class="service arrow-control">
+                            <a href="#" class="nav-top-border">Events</a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                            <ul class="sub-menu-service">
+                                <li class="pt-4"><a href="event.html">Our Events</a></li>
+                                <li class="pb-4"><a href="event-gallery.html">Our Gallery</a></li>
+                            </ul>
+                        </li>
+                        <li class=""><a href="blog.html" class="nav-top-border">Blogs</a></li>
+                        <li class="service arrow-control">
+                            <a href="#" class="nav-top-border">About</a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                            <ul class="sub-menu-service">
+                                <li><a href="https://www.proinfoedu.com/about-us" class="nav-top-border">About us</a></li>
+                                <li><a href="https://www.proinfoedu.com/certificates" class="nav-top-border">Professional
+                                        Affiliation</a></li>
+                            </ul>
+                        </li>
+                        <li class=""><a href="https://www.proinfoedu.com/contact-us" class="nav-top-border">Contact us</a>
+                        </li>
+                    </ul>
+                    <div class="apply-button d-flex justify-content-end">
+                        <!-- <a href="https://www.proinfoedu.com/apply" class="pe-1">
+                            <button type="button" class="">Apply Now <i class='bx bx-right-arrow-alt'></i></button>
+                        </a> -->
+                        <a href="tel:+8801519393939" class="pe-1">
+                            <button type="button" class="">Complain</button>
+                        </a>
+                    </div>
+                    <div class="qr-mobile-button" style="display: none;">
+                        <a href="https://www.proinfoedu.com/qrcode">
+                            <button type="button">QR</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <!-- Apply & QR Buttons -->
+                    <div class="apply d-flex me-3">
+                        <a href="https://www.proinfoedu.com/apply" class="pe-1">
+                            <button type="button" style="background-color:#A8FBD3; color:black; cursor:pointer; padding:6px 6px; border:none; border-radius:4px;">
+                                <i class="fas fa-paper-plane" style="margin-right:4px;"></i> Apply Now
+                            </button>
+                        </a>
+                        <a href="https://www.proinfoedu.com/qrcode">
+                            <button type="button" style="background-color:#A8FBD3; color:black; cursor:pointer; padding:6px 6px; border:none; border-radius:4px;">
+                                <i class="fas fa-qrcode" style="margin-right:4px;"></i> QR
+                            </button>
+                        </a>
+                    </div>
+
+                    <!-- Menu Button -->
+                    <div class="menu-button">
+                        <button type="button" id="menuButton"><i class='bx bx-menu'></i></button>
+                    </div>
+                </div>
+                <!-- <div class="menu-button d-flex align-items-center 1400">
+                    <div class="apply">
+                        <a href="https://www.proinfoedu.com/apply">
+                            <button type="button" class="">Apply Now</button>
+                        </a>
+                    </div>
+                    <button type="button" id="menuButton"><i class='bx bx-menu'></i></button>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu List Stat -->
+    <div class="menu-container side-menu" id="menuContainer">
+        <div class="menu-list custom-scrollbar">
+            <aside id="sidebar" class="sidebar">
+
+                <ul class="sidebar-nav" id="sidebar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.htm">
+                            <i class="bi bi-grid"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <!--<li class="nav-item">-->
+                    <!--    <a class="nav-link " href="https://www.proinfoedu.com/about-us">-->
+                    <!--        <i class="bi bi-node-plus"></i>-->
+                    <!--        <span>About Us</span>-->
+                    <!--    </a>-->
+                    <!--</li>-->
+                    <li class="service arrow-control">
+                        <a href="#" class="nav-top-border">About</a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                        <ul class="sub-menu-service">
+                            <li><a href="https://www.proinfoedu.com/about-us" class="nav-top-border">About us</a></li>
+                            <li><a href="https://www.proinfoedu.com/certificates" class="nav-top-border">Professional
+                                    Affiliation</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" data-bs-target="#destination-nav" data-bs-toggle="collapse" href="#">
+                            <i class="bi bi-menu-button-wide"></i><span>Destination</span><i class="bi bi-chevron-down ms-auto"></i>
+                        </a>
+                        <ul id="destination-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+
+                            <li>
+                                <a href="australia.html">
+                                    <i class="bi bi-circle"></i><span>Australia</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="newzealand.html">
+                                    <i class="bi bi-circle"></i><span>Newzealand</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="canada.html">
+                                    <i class="bi bi-circle"></i><span>Canada</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="uk.html">
+                                    <i class="bi bi-circle"></i><span>United Kingdom</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="europe.html">
+                                    <i class="bi bi-circle"></i><span>Europe</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="southkorea.html">
+                                    <i class="bi bi-circle"></i><span>South Korea</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="malaysia.html">
+                                    <i class="bi bi-circle"></i><span>Malaysia</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" data-bs-target="#service-nav" data-bs-toggle="collapse" href="#">
+                            <i class="bi bi-menu-button-wide"></i><span>Service</span><i class="bi bi-chevron-down ms-auto"></i>
+                        </a>
+                        <ul id="service-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                            <li>
+                                <a href="counseling.html">
+                                    <i class="bi bi-circle"></i><span>Education Counseling</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="admission.html">
+                                    <i class="bi bi-circle"></i><span>Admission Process</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="visa.html">
+                                    <i class="bi bi-circle"></i><span>Visa Application</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="scholarship.html">
+                                    <i class="bi bi-circle"></i><span>Scholarship Facilities</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="travel.html">
+                                    <i class="bi bi-circle"></i><span>Travel Assistance</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="support.html">
+                                    <i class="bi bi-circle"></i><span>Pre & Post - Arrival Support</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="testimonial.html">
+                            <i class="bi bi-body-text"></i>
+                            <span>Testimonials</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" data-bs-target="#event-nav" data-bs-toggle="collapse">
+                            <i class="bi bi-alexa"></i><span>Events</span><i class="bi bi-chevron-down ms-auto"></i>
+                        </a>
+                        <ul id="event-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                            <li>
+                                <a href="event.html">
+                                    <i class="bi bi-circle"></i><span>Our Events</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="event-gallery.html">
+                                    <i class="bi bi-circle"></i><span>Our Gallery</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="blog.html">
+                            <i class="bi bi-body-text"></i>
+                            <span>Blogs</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="https://www.proinfoedu.com/contact-us">
+                            <i class="bi bi-envelope"></i>
+                            <span>Contact Us</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="side-apply-button text-center mt-4">
+                    <div class="qr-mobile-button" style="display: none;">
+                        <a href="https://www.proinfoedu.com/qrcode">
+                            <button type="button">QR</button>
+                        </a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="https://www.proinfoedu.com/apply">
+                            <button type="button" class="">Apply Now <i class='bx bx-right-arrow-alt'></i></button>
+                        </a>
+                    </div>
+                    <div class="">
+                        <a href="tel:+8801519393939">
+                            <button type="button" class="">Complain Box</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/proinfobd" target="_blank"><button type="button"><i class='bx bxl-facebook'></i></button></a>
+                    <a href="https://www.linkedin.com/company/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-linkedin'></i></button></a>
+                    <a href="https://www.youtube.com/channel/UC_ZQ7ocnm54IfKY4MMvOTfQ" target="_blank"><button type="button"><i class='bx bxl-youtube'></i></button></a>
+                    <a href="https://www.instagram.com/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-instagram'></i></button></a>
+                    <a href="https://x.com/ProInfoEduCons1" target="_blank">
+                        <button type="button">
+                            <i class="fa-brands fa-x-twitter" style="font-size: 17px;"></i>
+                        </button>
+                    </a>
+                </div>
+            </aside>
+
+
+        </div>
+    </div>
+    <!-- Menu List End-->
+
+    
+        <!--================== banner section ==================-->
+
+    <section class="page-banner section">
+        <img src="images/page-bg.jpg" alt="Img not available">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <div class="container page-section-title pt-5 mt-5">
+                        <h2 class="text-light">Admission Process</h2>
+                        <p>Welcome to learn more about Admission Process.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="service">
+        <div class="container">
+            <div class="service-container">
+                <div class="service-title">
+                    <p><span>Admission Process</span> - Simplifying Your Path to University</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="service-content">
+                            <p>At <strong class="fw-bold">Pro Info & Edu Consultant</strong>, we understand that the
+                                university admission process can be overwhelming, with various steps and deadlines to
+                                manage. Thatâs why our <strong class="fw-bold">Admission Process </strong>service is here to
+                                guide you through every stage, ensuring a smooth and stress-free experience. With our expert
+                                support, you can focus on preparing for your academic journey while we take care of the
+                                details.
+                            </p>
+                            <p>With over 16 years of experience, we have helped thousands of students successfully apply to
+                                top universities across the <strong class="fw-bold">Australia, UK, Canada, USA, Ireland, Hungery, Malaysia, New Zealand, Sweden and Denmark</strong> Our partnerships with top universities give us the insight
+                                and connections needed to assist you in gaining admission to your dream institution.</p>
+
+                        </div>
+                        <div class="service-title">
+                            <p>Our <span>Admission Process</span> Services Include:</p>
+                        </div>
+                        <div class="service-content">
+                            <ul>
+                                <li><strong class="fw-bold">University Application Guidance</strong>: We help you choose the
+                                    right university and course based on your academic profile and career goals.</li>
+                                <li><strong class="fw-bold">Document Preparation</strong>: We assist you in preparing and
+                                    organizing all necessary documents, including transcripts, certificates, letters of
+                                    recommendation (LOR), and statements of purpose (SOP).</li>
+                                <li><strong class="fw-bold">Application Submission</strong>: Our team ensures your
+                                    applications are submitted on time and in compliance with each universityâs specific
+                                    requirements.</li>
+                                <li><strong class="fw-bold">Tracking Application Statu</strong>: We monitor the progress of
+                                    your applications and keep you updated on their status, so you never miss a deadline.
+                                </li>
+                                <li><strong class="fw-bold">Interview Preparation</strong>: For universities that require
+                                    interviews, we provide expert coaching to help you make a strong impression.</li>
+                                <li><strong class="fw-bold">Offer Letter Assistance</strong>: We help you understand and
+                                    manage any offer letters or conditional offers from universities and guide you on your
+                                    next steps.</li>
+                            </ul>
+                            <p> <strong class="fw-bold">Making the Admission Process Stress-Free</strong> Our aim is to
+                                simplify the admission process so you can focus on what matters mostâpreparing for your
+                                academic journey. With our experienced team of consultants guiding you through every step,
+                                you can be confident that your applications are in safe hands.</p>
+                            <p> <strong class="fw-bold">How to Get Started</strong> Booking an appointment for admission
+                                assistance is simple. You can fill out our online form, call us at <strong class="fw-bold">â+880 1889993282â</strong>, or visit one of our offices. Our <strong class="fw-bold">admission process services are free</strong>, so you can focus on
+                                achieving your academic goals without worrying about extra costs.
+                            </p>
+                            <p>At <strong class="fw-bold">Pro Info & Edu Consultant</strong>, weâre committed to making your
+                                university application process as smooth and successful as possible.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+    <div class="service-form-container">
+        <div class="service-form">
+            <div class="service-form-content">
+                <p>Book your <span>consultation</span> <br> with <span>Certified Counsellors</span></p>
+
+                <form class="row g-3" method="post" action="https://www.proinfoedu.com/contact-send">
+                    <input type="hidden" name="_token" value="xu2VH3UimtzKReKu9fmfcE6AwxmQ6wkMhyl6DvaE" autocomplete="off">                    <input type="hidden" name="_method" value="POST">
+                                        
+                    <div class="col-12">
+                        <label for="name" class="form-label">Name <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="name" name="name" required="" value="">
+                    </div>
+                                        <!-- <div class="col-12">
+                        <label for="phone" class="form-label">Phone <span class="text-danger">*</span></label>
+                        <input type="number" class="form-control" id="phone" name="phone" required
+                            value="">
+                    </div>
+                     -->
+                    <div class="col-12">
+                        <label for="number" class="form-label">Phone Number <span class="text-danger">*</span></label>
+                        <input type="number" class="form-control" id="number" name="number" required="" value="">
+                    </div>
+                                        <div class="col-12">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" value="">
+                    </div>
+                                        <!-- <div class="col-12">
+                        <label for="number" class="form-label">Phone Number <span class="text-danger">*</span></label>
+                        <input type="number" class="form-control" id="number" name="number" required
+                            value="">
+                    </div>
+                     -->
+                    <div class="col-12">
+                        <label for="lastEducation" class="form-label">Your Last Education</label>
+                        <input type="text" class="form-control" id="lastEducation" name="lastEducation" value="">
+                    </div>
+                                        <div class="col-12">
+                        <label for="englishLanguage" class="form-label">English Language Proficiency</label>
+                        <input type="text" class="form-control" id="englishLanguage" name="englishLanguage" value="">
+                    </div>
+                                        <div class="col-12">
+                        <label for="intake" class="form-label">Preferred Intake <span class="text-danger">*</span></label>
+                        <select id="intake" class="form-select" name="intake" required="" value="">
+                            <!-- <option value="" selected disabled>Select Year</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                            <option value="2030">2030</option> -->
+                            <option value="" selected="" disabled="">Select Intake</option>
+                            <option value="January">January</option>
+                            <option value="February">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                            <option value="October">October</option>
+                            <option value="November">November</option>
+                            <option value="December">December</option>
+                        </select>
+                    </div>
+                                        <div class="col-12">
+                        <label for="des" class="form-label">Preferred study Destination <span class="text-danger">*</span></label>
+                        <select id="des" class="form-select" name="country" required="" value="">
+                            <option value="" selected="" disabled="">Select a Country</option>
+                            <option value="Australia">Australia</option>
+                            <option value="New Zealand">New Zealand</option>
+                            <option value="Canada">Canada</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="United States">United States</option>
+                            <option value="Hungary">Hungary</option>
+                            <option value="Ireland">Ireland</option>
+                            <option value="Natherland">Natherland</option>
+                            <option value="Sweden">Sweden</option>
+                            <option value="Denmark">Denmark</option>
+                            <option value="Malaysia">Malaysia</option>
+                        </select>
+                    </div>
+                                        <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck" required="">
+                            <label class="form-check-label" for="gridCheck">
+                                By clicking you agree to our Privacy Policy and Terms & Conditions
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-danger w-100">Get Started</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section py-5 " style="background-color: #f5dbde94">
+        <div class="container">
+            <div class="row gy-4 px-5">
+                <div class="col-lg-12">
+                    <div class="content px-xl-5 text-center mb-5">
+                        <h3><strong>Frequently Asked Questions</strong></h3>
+                    </div>
+
+                    <div class="faq-container">
+                        <div class="faq-item faq-active">
+                            <h3><span class="num">1.</span> <span>What services does your consultancy offer to
+                                    students?</span>
+                            </h3>
+                            <div class="faq-content">
+                                <p>We offer guidance on university applications, visa processing, course selection,
+                                    scholarships, and accommodation options for students planning to study abroad.</p>
+                            </div>
+                            <i class="faq-toggle bi bi-chevron-right"></i>
+                        </div><!-- End Faq item-->
+
+                        <div class="faq-item">
+                            <h3><span class="num">2.</span> <span>Which countries do you provide consultancy
+                                    for?</span></h3>
+                            <div class="faq-content">
+                                <p>We provide consultation for students wishing to study in countries such as the UK,
+                                    USA, Canada, Australia, Germany, Ireland, and other popular study destinations.</p>
+                            </div>
+                            <i class="faq-toggle bi bi-chevron-right"></i>
+                        </div><!-- End Faq item-->
+
+                        <div class="faq-item">
+                            <h3><span class="num">3.</span> <span>What is the process for working with your
+                                    consultancy?</span></h3>
+                            <div class="faq-content">
+                                <p>The process typically includes an initial consultation, assessing academic records,
+                                    selecting universities, applying to schools, and handling visa applications and
+                                    post-arrival services.</p>
+                            </div>
+                            <i class="faq-toggle bi bi-chevron-right"></i>
+                        </div><!-- End Faq item-->
+
+                        <div class="faq-item">
+                            <h3><span class="num">4.</span> <span>How can I schedule a consultation with your
+                                    team?</span></h3>
+                            <div class="faq-content">
+                                <p>You can schedule a consultation by visiting our website and filling out the inquiry
+                                    form, or by contacting us via phone or email.</p>
+                            </div>
+                            <i class="faq-toggle bi bi-chevron-right"></i>
+                        </div><!-- End Faq item-->
+
+                        <div class="faq-item">
+                            <h3><span class="num">5.</span> <span>Do you charge a fee for your services?</span></h3>
+                            <div class="faq-content">
+                                <p>Yes, we charge a fee for our consultancy services. The fee structure depends on the
+                                    level of support you require, ranging from university applications to visa
+                                    processing.</p>
+                            </div>
+                            <i class="faq-toggle bi bi-chevron-right"></i>
+                        </div><!-- End Faq item-->
+                        <div class="faq-item">
+                            <h3><span class="num">6.</span> <span>Can you help with scholarship opportunities?
+                                </span></h3>
+                            <div class="faq-content">
+                                <p>Yes, we assist students in finding and applying for scholarships offered by
+                                    universities and other funding organizations.
+                                </p>
+                            </div>
+                            <i class="faq-toggle bi bi-chevron-right"></i>
+                        </div><!-- End Faq item-->
+                        <div class="faq-item">
+                            <h3><span class="num">7.</span> <span>Do you provide post-arrival support for
+                                    students?</span></h3>
+                            <div class="faq-content">
+                                <p>Yes, we offer post-arrival services such as airport pickup, finding accommodation,
+                                    and helping students settle into their new environment.</p>
+                            </div>
+                            <i class="faq-toggle bi bi-chevron-right"></i>
+                        </div><!-- End Faq item-->
+                        <div class="faq-item">
+                            <h3><span class="num">8.</span> <span>What is your success rate for student visa
+                                    applications?
+                                </span></h3>
+                            <div class="faq-content">
+                                <p>Our consultancy has a high success rate for student visa applications, thanks to our
+                                    experienced team and thorough preparation process.</p>
+                            </div>
+                            <i class="faq-toggle bi bi-chevron-right"></i>
+                        </div><!-- End Faq item-->
+                        <div class="faq-item">
+                            <h3><span class="num">9.</span> <span>Why should I choose your consultancy over
+                                    others?</span></h3>
+                            <div class="faq-content">
+                                <p>Our team consists of experienced professionals, and we offer personalized support,
+                                    helping students at every step, from choosing the right program to ensuring a smooth
+                                    visa process.
+                                </p>
+                            </div>
+                            <i class="faq-toggle bi bi-chevron-right"></i>
+                        </div><!-- End Faq item-->
+                        <div class="faq-item">
+                            <h3><span class="num">10.</span> <span>Do you offer support for English language tests
+                                    like IELTS/TOEFL?</span></h3>
+                            <div class="faq-content">
+                                <p>Yes, we provide assistance with English proficiency tests, including preparation
+                                    guidance for exams like IELTS, TOEFL, and PTE.</p>
+                            </div>
+                            <i class="faq-toggle bi bi-chevron-right"></i>
+                        </div><!-- End Faq item-->
+
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <div class="text-center fcq-card pt-5">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="images/user-fcq.png" alt="">
+                                    <h3 class="mt-4"><strong>Still have questions?</strong></h3>
+                                    <p>Canât find the answer youâre looking for? Please chat to our friendly team.</p>
+                                    <a href="https://www.proinfoedu.com/contact-us" class="btn btn-danger">Get In Touch</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section><!-- /Faq Section -->
+
+    <!-- Message Button -->
+    <!-- Message Button -->
+<div class="message-button">
+    <a href="tel:+8801889993282" class="display-button call">
+        <i class='bx bx-phone-call'></i>
+    </a>
+    <a href="https://m.me/proinfobd" class="display-button messenger" target="_blank">
+        <i class='bx bxl-messenger'></i>
+    </a>
+    <a href="https://wa.me/+8801519393939" class="display-button whatsapp" target="_blank">
+        <i class='bx bxl-whatsapp'></i>
+    </a>
+</div>
+    
+
+
+
+    <!--================== footer section =================-->
+    
+<!--================== footer section =================-->
+<section id="footer" style="background-image: url(images/bg-content-05.png); background-size: cover;">
+    <div class="container mb-4">
+        <div class="row g-4">
+            <div class="col-sm-12 col-lg-5 office">
+                <p class="footer-heading fade-element fade-down">Our Office</p>
+                <div class="row ">
+                    <div class="col-sm-6 mb-3">
+                        <p class="footer-sub-heading fade-element fade-down">Dhaka Branch (Head Office)</p>
+                        <a href="">Al-Minar, House-37 (Level-3
+                            & 4), Road-15, Block-D, Banani, Dhaka, Bangladesh</a>
+                    </div>
+                    
+                    <div class="col-sm-6 mb-3">
+                        <p class="footer-sub-heading fade-element fade-down">Khulna Branch</p>
+                        <a href="">18/A (4th floor of Aarong Building), Eden Plaza, KDA New Market, Khulna,
+                            Bangladesh.
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 service-contact">
+                <p class="footer-heading fade-element fade-down">Services</p>
+                <div class="row">
+                    <div class="col">
+                        <div><a href="">Counselling</a></div>
+                        <div><a href="">Admission</a></div>
+                        <div><a href="">Visa Guidance</a></div>
+                    </div>
+                    <div class="col">
+                        <div><a href="">Scholarship</a></div>
+                        <div><a href="">Travel Assistance</a></div>
+                        <div><a href="">Arrival Support</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <p class="footer-heading fade-element fade-down">Contact Us</p>
+                <ul class="footer-list service-contact">
+                    <li><i class='bx bxs-phone-call'></i><a href="mailto:admin@proinfoedu.com" class="ps-3">admin@proinfoedu.com</a>
+                    </li>
+                    <li><i class='bx bx-envelope'></i><a href="" class="ps-3">+880 1519-393939</a>
+                    </li>
+                </ul>
+                <p class="footer-heading fade-element fade-down">Follow Us</p>
+                <div class="social-icon fade-element fade-down">
+                    <a href="https://www.facebook.com/proinfobd" target="_blank"><button type="button"><i class='bx bxl-facebook'></i></button></a>
+                    <a href="https://www.linkedin.com/company/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-linkedin'></i></button></a>
+                    <a href="https://www.youtube.com/channel/UC_ZQ7ocnm54IfKY4MMvOTfQ" target="_blank"><button type="button"><i class='bx bxl-youtube'></i></button></a>
+                    <a href="https://www.instagram.com/proinfoedu/" target="_blank"><button type="button"><i class='bx bxl-instagram'></i></button></a>
+                    <a href="https://x.com/ProInfoEduCons1" target="_blank">
+                        <button type="button">
+                            <i class="fa-brands fa-x-twitter" style="font-size: 17px;"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="copyright">
+        <div class="row mt-3">
+            <div class="col">
+                <span>Â©2024 Pro Info & Edu Consultant. All Rights Reserved.</span>
+            </div>
+            <div class="col text-end">
+                <span>Privacy Policy | Terms & Conditions | Cookie Policy</span>
+            </div>
+        </div>
+
+    </section>
+</section>
+
+<!--================== footer section =================-->
+
+
+<script src="frontend/js/jquery-3.6.0.min.js"></script>
+<script src="frontend/purecounter/purecounter_vanilla.js"></script>
+
+<script src="frontend/js/bootstrap-5.3.2.bundle.min.js"></script>
+<script src="frontend/js/main.js"></script>
+<script src="npm/glightbox/dist/js/glightbox.min.js"></script>
+<script src="ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="npm/flatpickr-1"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 3000, // Set autoplay timeout to 3 second
+            responsive: {
+                0: {
+                    items: 1
+                },
+                500: {
+                    items: 2
+                },
+                800: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+    });
+</script>
+<script>
+    
+    
+    
+    </script>
+</body>
+
+</html>

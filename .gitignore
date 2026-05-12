@@ -1,0 +1,13 @@
+# Kimi agent working directory
+.kimi/
+
+# Screenshots & scripts
+screenshots/
+screenshot.js
+screenshot-after.js
+server.log
+
+# Node dependencies
+node_modules/
+package.json
+package-lock.json
