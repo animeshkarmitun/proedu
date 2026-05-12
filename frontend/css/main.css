@@ -262,6 +262,11 @@ body {
     width: 85px;
 }
 
+/* Hide the green Apply Now / QR buttons in sticky header on desktop */
+#header .apply {
+    display: none !important;
+}
+
 #header .menu .apply-button {
     width: auto;
     text-align: end;
